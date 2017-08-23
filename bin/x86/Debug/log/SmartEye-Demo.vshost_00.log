@@ -542,3 +542,75 @@
 [2017-08-16 15:23:54.710][INFO..][CUGlobal]:audioCapture thread started (8464)
 [2017-08-16 15:23:54.715][INFO..][CUGlobal]:videoRender thread started (560)
 [2017-08-16 15:23:54.715][INFO..][CUGlobal]:libBVCU Opened
+[2017-08-22 11:14:15.834][INFO..][CUGlobal]:network thread started (1292)
+[2017-08-22 11:14:15.835][INFO..][CUGlobal]:codec thread started (9568)
+[2017-08-22 11:14:15.835][INFO..][CUGlobal]:codec thread started (10756)
+[2017-08-22 11:14:15.836][INFO..][CUGlobal]:storage thread started (8280)
+[2017-08-22 11:14:15.958][INFO..][CUGlobal]:audioRender thread started (9236)
+[2017-08-22 11:14:15.958][INFO..][CUGlobal]:audioCapture thread started (10924)
+[2017-08-22 11:14:15.963][INFO..][CUGlobal]:videoRender thread started (5340)
+[2017-08-22 11:14:15.963][INFO..][CUGlobal]:libBVCU Opened
+[2017-08-22 11:14:24.068][INFO..][ThreadCodec]:open video decoder for PU_2710.0
+[2017-08-22 11:14:24.068][INFO..][ThreadCodec]:open audio decoder for PU_2710.0
+[2017-08-22 11:14:46.121][INFO..][ThreadCodec]:open video decoder for PU_2710.1
+[2017-08-22 11:14:46.121][INFO..][ThreadCodec]:open audio decoder for PU_2710.1
+[2017-08-22 11:15:08.100][INFO..][ThreadCodec]:open video decoder for PU_2710.2
+[2017-08-22 11:15:08.100][INFO..][ThreadCodec]:open audio decoder for PU_2710.2
+[2017-08-22 11:15:26.091][INFO..][ThreadCodec]:open video decoder for PU_2710.3
+[2017-08-22 11:15:26.091][INFO..][ThreadCodec]:open audio decoder for PU_2710.3
+[2017-08-22 11:30:10.666][INFO..][CUGlobal]:network thread started (9480)
+[2017-08-22 11:30:10.666][INFO..][CUGlobal]:codec thread started (9384)
+[2017-08-22 11:30:10.666][INFO..][CUGlobal]:codec thread started (8680)
+[2017-08-22 11:30:10.666][INFO..][CUGlobal]:storage thread started (10408)
+[2017-08-22 11:30:10.711][INFO..][CUGlobal]:audioRender thread started (11216)
+[2017-08-22 11:30:10.711][INFO..][CUGlobal]:audioCapture thread started (10256)
+[2017-08-22 11:30:10.714][INFO..][CUGlobal]:videoRender thread started (6828)
+[2017-08-22 11:30:10.715][INFO..][CUGlobal]:libBVCU Opened
+[2017-08-22 11:30:19.115][INFO..][ThreadCodec]:open video decoder for PU_2710.0
+[2017-08-22 11:30:19.115][INFO..][ThreadCodec]:open audio decoder for PU_2710.0
+[2017-08-22 11:30:39.146][INFO..][ThreadCodec]:open video decoder for PU_2710.1
+[2017-08-22 11:30:39.147][INFO..][ThreadCodec]:open audio decoder for PU_2710.1
+[2017-08-22 11:31:01.174][INFO..][ThreadCodec]:open video decoder for PU_2710.2
+[2017-08-22 11:31:01.174][INFO..][ThreadCodec]:open audio decoder for PU_2710.2
+[2017-08-22 11:31:19.178][INFO..][ThreadCodec]:open video decoder for PU_2710.3
+[2017-08-22 11:31:19.178][INFO..][ThreadCodec]:open audio decoder for PU_2710.3
+[2017-08-22 15:42:37.003][INFO..][CUGlobal]:network thread started (13404)
+[2017-08-22 15:42:37.003][INFO..][CUGlobal]:codec thread started (13696)
+[2017-08-22 15:42:37.003][INFO..][CUGlobal]:codec thread started (12728)
+[2017-08-22 15:42:37.004][INFO..][CUGlobal]:storage thread started (11364)
+[2017-08-22 15:42:37.066][INFO..][CUGlobal]:audioRender thread started (8696)
+[2017-08-22 15:42:37.066][INFO..][CUGlobal]:audioCapture thread started (13064)
+[2017-08-22 15:42:37.069][INFO..][CUGlobal]:videoRender thread started (12092)
+[2017-08-22 15:42:37.069][INFO..][CUGlobal]:libBVCU Opened
+[2017-08-22 15:42:45.525][INFO..][ThreadCodec]:open video decoder for PU_2710.0
+[2017-08-22 15:42:45.525][INFO..][ThreadCodec]:open audio decoder for PU_2710.0
+[2017-08-22 15:43:05.628][INFO..][ThreadCodec]:open video decoder for PU_2710.1
+[2017-08-22 15:43:05.628][INFO..][ThreadCodec]:open audio decoder for PU_2710.1
+[2017-08-22 15:43:27.601][INFO..][ThreadCodec]:open video decoder for PU_2710.2
+[2017-08-22 15:43:27.601][INFO..][ThreadCodec]:open audio decoder for PU_2710.2
+[2017-08-22 15:43:45.537][INFO..][ThreadCodec]:open video decoder for PU_2710.3
+[2017-08-22 15:43:45.537][INFO..][ThreadCodec]:open audio decoder for PU_2710.3
+[2017-08-23 09:17:44.673][INFO..][CUGlobal]:network thread started (5440)
+[2017-08-23 09:17:44.673][INFO..][CUGlobal]:codec thread started (9968)
+[2017-08-23 09:17:44.674][INFO..][CUGlobal]:codec thread started (10044)
+[2017-08-23 09:17:44.674][INFO..][CUGlobal]:storage thread started (9340)
+[2017-08-23 09:17:44.765][INFO..][CUGlobal]:audioRender thread started (6436)
+[2017-08-23 09:17:44.765][INFO..][CUGlobal]:audioCapture thread started (8468)
+[2017-08-23 09:17:44.770][INFO..][CUGlobal]:videoRender thread started (9492)
+[2017-08-23 09:17:44.770][INFO..][CUGlobal]:libBVCU Opened
+[2017-08-23 09:17:54.109][INFO..][ThreadCodec]:open video decoder for PU_2710.0
+[2017-08-23 09:17:54.113][INFO..][ThreadCodec]:open audio decoder for PU_2710.0
+[2017-08-23 09:18:16.058][INFO..][ThreadCodec]:open video decoder for PU_2710.1
+[2017-08-23 09:18:16.058][INFO..][ThreadCodec]:open audio decoder for PU_2710.1
+[2017-08-23 09:18:36.082][INFO..][ThreadCodec]:open video decoder for PU_2710.2
+[2017-08-23 09:18:36.082][INFO..][ThreadCodec]:open audio decoder for PU_2710.2
+[2017-08-23 09:18:54.049][INFO..][ThreadCodec]:open video decoder for PU_2710.3
+[2017-08-23 09:18:54.049][INFO..][ThreadCodec]:open audio decoder for PU_2710.3
+[2017-08-23 10:42:28.751][INFO..][CUGlobal]:network thread started (8316)
+[2017-08-23 10:42:28.751][INFO..][CUGlobal]:codec thread started (9112)
+[2017-08-23 10:42:28.751][INFO..][CUGlobal]:codec thread started (8244)
+[2017-08-23 10:42:28.752][INFO..][CUGlobal]:storage thread started (8724)
+[2017-08-23 10:42:28.815][INFO..][CUGlobal]:audioRender thread started (4332)
+[2017-08-23 10:42:28.815][INFO..][CUGlobal]:audioCapture thread started (9904)
+[2017-08-23 10:42:28.819][INFO..][CUGlobal]:videoRender thread started (6532)
+[2017-08-23 10:42:28.819][INFO..][CUGlobal]:libBVCU Opened

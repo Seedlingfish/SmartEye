@@ -17,10 +17,21 @@ namespace SmartEye_Demo
         public int channelNo;       // 对话所在的通道
         public DateTime timeStamp;  // 对话当前显示帧的时间戳
         public bool recording;      // 是否正在录像
+        public byte[] sendData;     // 对应dialog发送给设备的数据
     
         public OneDialog()
         {
             dialogHandle = IntPtr.Zero;
+
+            byte[] sndData = Enumerable.Repeat((byte)0x00, 55).ToArray();
+            sndData[0] = 0x55;
+            sndData[53] = 0xAA;
+            sndData[54] = 0xAA;
+
+            //sendData = Encoding.UTF8.GetString(sndData);
+            sendData = sndData;
+            //sndMsg.Replace("-", "");
+           
         }
     }
 }

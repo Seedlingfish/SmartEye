@@ -7,6 +7,7 @@ using System;
 using System.Collections;
 using System.Windows.Forms;
 using System.Text;
+using System.Linq;
 
 namespace SmartEye_Demo
 {
@@ -566,6 +567,62 @@ namespace SmartEye_Demo
                 if (BVCU.BVCU_RESULT_S_OK == ret)
                 {
                     LogHelper.LogHelper.RecordLog(0, "发送成功, 内容: " + sendData);
+                }
+                else if ((int)BVCU.BVCU_Result.BVCU_RESULT_E_NOTFOUND == ret)
+                {
+                    LogHelper.LogHelper.RecordLog(100, "发送失败，会话不存在");
+                }
+                else if ((int)BVCU.BVCU_Result.BVCU_RESULT_E_ALLOCMEMFAILED == ret)
+                {
+                    LogHelper.LogHelper.RecordLog(100, string.Format("发送失败，错误码:{0}, 可能原因: 您打开的会话(Dialog)模式为只读, 请增加可写功能", ret));
+                }
+                else
+                {
+                    LogHelper.LogHelper.RecordLog(100, "其他错误, 错误码: " + ret);
+                }
+
+            }
+
+
+            return 0;
+        }
+
+
+        /// <summary>
+        /// 发送串口数据
+        /// </summary>
+        public int SendTspData()
+        {
+            if (0 == this.m_tspDialogs.Count)
+            {
+                LogHelper.LogHelper.RecordLog(58, "没有已打开的串口通道");
+                return -1;
+            }
+
+            foreach (OneDialog tspDialog in this.m_tspDialogs)
+            {
+                //BVCU_RESULT_S_OK: 成功
+                //BVCU_RESULT_E_NOTEXIST: 会话不存在
+                //BVCU_RESULT_E_UNSUPPORTED: 不支持的操作
+                //BVCU_RESULT_E_FAILED或其他： 其他错误导致失败
+                //发送串口数据
+                int ret = BVCU.SendTspData(tspDialog.dialogHandle, tspDialog.sendData, tspDialog.sendData.Length + 1);
+
+                //发送结束后，将所有数据恢复为原始数据
+                if (tspDialog.sendData.Length != 55)
+                {
+                    byte[] sndData = Enumerable.Repeat((byte)0x00, 55).ToArray();
+                    sndData[0] = 0x55;
+                    sndData[53] = 0xAA;
+                    sndData[54] = 0xAA;
+
+                    //sendData = Encoding.UTF8.GetString(sndData);
+                    tspDialog.sendData = sndData;
+                }
+
+                if (BVCU.BVCU_RESULT_S_OK == ret)
+                {
+                    LogHelper.LogHelper.RecordLog(0, "发送成功, 内容: " + Encoding.UTF8.GetString(tspDialog.sendData));
                 }
                 else if ((int)BVCU.BVCU_Result.BVCU_RESULT_E_NOTFOUND == ret)
                 {

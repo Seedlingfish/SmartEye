@@ -8,6 +8,8 @@ using System.Linq;
 using MySql.Data.MySqlClient;
 using System.Threading;
 using System.Timers;
+using System.Threading;
+using System.Collections.Generic;
 
 namespace SmartEye_Demo
 {
@@ -24,6 +26,13 @@ namespace SmartEye_Demo
         /// </summary>
         public BVCUSdkOperator m_sdkOperator;
         public System.Timers.Timer sndData_timer;
+        public Websocket_Rec websocket_Rec;
+
+        //存储pu对应的传感器数据
+        Dictionary<string, Queue<short[]>> pu_rsDatas;
+        short[] rsdata_Now;
+        Queue<short[]> RSdatas_Now;
+
         #endregion 属性[部分]
 
 
@@ -34,11 +43,19 @@ namespace SmartEye_Demo
         {
             m_videoPanels = new ArrayList();
 
+            //存储pu对应的传感器数据
+            pu_rsDatas = new Dictionary<string, Queue<short[]>>();
+
             InitializeComponent();
 
             devideScreen();
 
+            
+
             m_sdkOperator = new BVCUSdkOperator(this);
+
+            //Websocket服务器监听,并传递传感器数据和dialog
+            websocket_Rec = new Websocket_Rec(pu_rsDatas,m_sdkOperator.Dialog);
 
             m_getPuList = new GetPuListDel(procGetPuList);//设置获得设备列表后的响应,初始化treeview
 
@@ -57,6 +74,7 @@ namespace SmartEye_Demo
             sndData_timer.AutoReset = true;
             sndData_timer.Enabled = false;
 
+            
             //连接数据库
             if (conn != null)
                 conn.Close();
@@ -536,15 +554,9 @@ namespace SmartEye_Demo
         //向所有TSP通道发送请求数据
         public void sndMsg_TSP(object sender, EventArgs e)
         {
-            byte[] sndData = Enumerable.Repeat((byte)0x00,55).ToArray();
-            sndData[0] = 0x55;
-            sndData[53] = 0xAA;
-            sndData[54] = 0xAA;
+           
 
-            string sndMsg = Encoding.UTF8.GetString(sndData);
-            //sndMsg.Replace("-", "");
-
-            this.m_sdkOperator.Dialog.SendTspData(sndMsg);
+            this.m_sdkOperator.Dialog.SendTspData();
         }
 
         #endregion 串口发送数据
@@ -698,8 +710,10 @@ namespace SmartEye_Demo
                             byte[] RecData = Encoding.UTF8.GetBytes(RecAll);
                             byte[] nci = new byte[64];
                             Array.Copy(RecData, 176, nci, 0, 64);
-                            //获取传感器数据，存入数据库
-                            setNCIData(nci);                          
+                            //获取传感器数据，异常数据存入数据库，否则存入内存数组，100条，等待客户端请求
+                            setNCIData(nci,puId); 
+
+
                         }
                     }
                     //如果通道号相同，则显示数据
@@ -728,7 +742,7 @@ namespace SmartEye_Demo
         public gsData gsSrData = new gsData();
 
         //获取传感器数据，存入数据库
-        public void setNCIData(byte[] nci)
+        public void setNCIData(byte[] nci,string puid)
         {
             byte[,] nciOrder = new byte[8, 8];
             for (int i = 0; i < 8; i++)
@@ -777,9 +791,30 @@ namespace SmartEye_Demo
 
                     }
 
-                    string sql1 = string.Format(@"insert into gassensordata(DataTime,CO,CO2,H2S,NH3) values('{0}', '{1}', '{2}', '{3}', '{4}')", DateTime.Now, gsSrData.CO, gsSrData.CO2, gsSrData.H2S, gsSrData.NH3);
-                    MySqlCommand mycmd = new MySqlCommand(sql1, conn);
-                    mycmd.ExecuteNonQuery();                
+                    //Queue<short[]> rsdata_Now = new Queue<short[]>();
+                    rsdata_Now=new short[]{gsSrData.CO, gsSrData.CO2, gsSrData.H2S, gsSrData.NH3};
+
+                    if (pu_rsDatas.ContainsKey(puid))
+                    {
+                        if (pu_rsDatas[puid].Count >= 100)
+                        {
+                            pu_rsDatas[puid].Dequeue();
+                        }
+                        pu_rsDatas[puid].Enqueue(rsdata_Now);
+                    }
+                    else
+                    {
+                        RSdatas_Now = new Queue<short[]>();
+                        RSdatas_Now.Enqueue(rsdata_Now);
+                        pu_rsDatas.Add(puid, RSdatas_Now);
+                    }
+
+                   
+                    //存入数据库
+                    //string sql1 = string.Format(@"insert into gassensordata(DataTime,CO,CO2,H2S,NH3) values('{0}', '{1}', '{2}', '{3}', '{4}')", DateTime.Now, gsSrData.CO, gsSrData.CO2, gsSrData.H2S, gsSrData.NH3);
+                    //MySqlCommand mycmd = new MySqlCommand(sql1, conn);
+                    //mycmd.ExecuteNonQuery();              
+               
 
                 }
 
@@ -900,6 +935,24 @@ namespace SmartEye_Demo
         private void login_btn_Click(object sender, EventArgs e)
         {
             m_sdkOperator.Session.login(textBoxIp.Text, int.Parse(textBoxPort.Text), textBoxUsrName.Text, textBoxPsw.Text);
+
+            //测试
+            //Queue<short[]> data=new Queue<short[]>();
+            //short[] data1 = new short[]{ 22, 11, 22, 44 };
+            //data.Enqueue(data1);
+
+            //pu_rsDatas.Add("TBG", data);
+
+            //开启新线程，监听客户端请求
+            Thread rec_Brequest = new System.Threading.Thread(websocket_Rec.startListen);
+            rec_Brequest.Start();
+
+
+            //测试
+            //data = new Queue<short[]>();
+            //data1 = new short[] { 33, 44, 55, 66 };
+            //data.Enqueue(data1);
+            //pu_rsDatas.Add("TBGY", data);
         }
     }
 }
