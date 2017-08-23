@@ -1,0 +1,8 @@
+F:\MVC files\SmartEye-Demo\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.MainWinForm.resources
+F:\MVC files\SmartEye-Demo\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.Properties.Resources.resources
+F:\MVC files\SmartEye-Demo\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csproj.GenerateResource.Cache
+F:\MVC files\SmartEye-Demo\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.exe
+F:\MVC files\SmartEye-Demo\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.pdb
+F:\MVC files\SmartEye-Demo\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.exe
+F:\MVC files\SmartEye-Demo\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.pdb
+F:\MVC files\SmartEye-Demo\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csprojResolveAssemblyReference.cache

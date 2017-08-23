@@ -1,0 +1,729 @@
+[Time:2017-08-16 08:51:12] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 08:51:12] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 08:51:12] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 08:51:12] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 08:51:12] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 08:51:12] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 08:51:12] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 08:51:12] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 08:51:12] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 08:51:12] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 08:51:12] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 08:51:20] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 08:51:24] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 09:59:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 09:59:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 09:59:09] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 09:59:09] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 09:59:09] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 09:59:09] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 09:59:10] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 09:59:10] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 09:59:10] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 09:59:10] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 09:59:19] [Level:4] [Information:打开[MNVRkaoji-2710]对讲.]
+[Time:2017-08-16 09:59:25] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:08:55] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:08:55] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:08:55] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:08:55] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:08:55] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:08:56] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:08:56] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:08:56] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:08:56] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:08:56] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:08:56] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:08:56] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:08:56] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:08:56] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:08:56] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:08:56] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:08:56] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:08:56] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:08:56] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:08:57] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:08:57] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:19:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:19:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:19:09] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:19:09] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:19:09] [Level:4] [Information:打开[MNVRkaoji-2710, 2]的视屏预览通道.]
+[Time:2017-08-16 10:19:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:19:09] [Level:4] [Information:打开[MNVRkaoji-2710, 3]的视屏预览通道.]
+[Time:2017-08-16 10:19:23] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:19:23] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:19:23] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:19:23] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:20:10] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:20:17] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:20:59] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:21:51] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:21:56] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:23:32] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:23:37] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:25:12] [Level:4] [Information:打开[MNVRkaoji-2710, 2]的视屏预览通道.]
+[Time:2017-08-16 10:25:22] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:25:53] [Level:4] [Information:打开[MNVRkaoji-2710, 3]的视屏预览通道.]
+[Time:2017-08-16 10:26:03] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:27:04] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:27:49] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:28:04] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:28:19] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:28:28] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:28:50] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:28:59] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:29:10] [Level:4] [Information:打开[MNVRkaoji-2710, 2]的视屏预览通道.]
+[Time:2017-08-16 10:29:21] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:29:33] [Level:4] [Information:打开[MNVRkaoji-2710, 3]的视屏预览通道.]
+[Time:2017-08-16 10:29:47] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:34:07] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:34:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:34:10] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:34:15] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:34:20] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:34:29] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:34:40] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:35:04] [Level:4] [Information:打开[MNVRkaoji-2710, 2]的视屏预览通道.]
+[Time:2017-08-16 10:35:11] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:35:35] [Level:4] [Information:打开[MNVRkaoji-2710, 3]的视屏预览通道.]
+[Time:2017-08-16 10:35:44] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:37:36] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:37:36] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:37:38] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:37:44] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:37:58] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:38:28] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:38:35] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:38:48] [Level:4] [Information:打开[MNVRkaoji-2710, 2]的视屏预览通道.]
+[Time:2017-08-16 10:38:55] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:39:11] [Level:4] [Information:打开[MNVRkaoji-2710, 3]的视屏预览通道.]
+[Time:2017-08-16 10:39:25] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:40:21] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:40:21] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:40:21] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:40:21] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:40:21] [Level:4] [Information:打开[MNVRkaoji-2710, 2]的视屏预览通道.]
+[Time:2017-08-16 10:40:22] [Level:4] [Information:打开[MNVRkaoji-2710, 3]的视屏预览通道.]
+[Time:2017-08-16 10:40:22] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:40:25] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:40:25] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:40:26] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:40:26] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:40:27] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:40:28] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:40:28] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:40:28] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:40:28] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:40:28] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:40:29] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:40:29] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:40:42] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:40:42] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:40:42] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:40:42] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:41:36] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:41:39] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:42:12] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:42:12] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:42:12] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:42:12] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:42:12] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:42:13] [Level:4] [Information:打开[MNVRkaoji-2710, 2]的视屏预览通道.]
+[Time:2017-08-16 10:42:13] [Level:4] [Information:打开[MNVRkaoji-2710, 3]的视屏预览通道.]
+[Time:2017-08-16 10:42:13] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:42:13] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:42:13] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:42:13] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:42:13] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:42:13] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:42:14] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:42:14] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:42:33] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:42:33] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:42:33] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:42:33] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:43:33] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:43:33] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:43:33] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:43:33] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:43:33] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:43:33] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:43:33] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:43:33] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:43:34] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:43:34] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:43:34] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:43:34] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:43:37] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:43:58] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:43:58] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:43:58] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:43:58] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:43:58] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:43:58] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:43:58] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:43:58] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:43:58] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:43:58] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:43:58] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:43:59] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:43:59] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:44:06] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:44:06] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:44:30] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:44:31] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:44:31] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:44:31] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:44:31] [Level:4] [Information:打开[MNVRkaoji-2710, 2]的视屏预览通道.]
+[Time:2017-08-16 10:44:31] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:44:31] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:44:31] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:44:31] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:44:31] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:44:31] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:44:31] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:44:31] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:44:31] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:44:51] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:44:51] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:44:51] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 10:45:12] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:45:12] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:45:13] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:45:13] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:45:13] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:45:15] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:45:15] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:45:16] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:45:16] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:45:19] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:45:19] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:45:19] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:45:19] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:45:21] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:45:21] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:45:21] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:45:22] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:45:22] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:45:22] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:59:20] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:59:20] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 10:59:20] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:59:20] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 10:59:23] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 10:59:23] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:59:23] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:59:24] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 10:59:24] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:59:24] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:59:25] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 10:59:25] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 10:59:25] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:59:26] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:59:26] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 10:59:26] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 10:59:29] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:01:22] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:01:22] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:01:22] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:01:22] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 11:01:22] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:01:22] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:01:22] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:01:22] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:01:23] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:01:23] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:01:23] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:01:23] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:01:23] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:01:31] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:01:31] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:14:38] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:14:38] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:14:39] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:14:47] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:14:54] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:15:11] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 11:15:28] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:16:02] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:16:02] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:16:05] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:16:06] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:17:17] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:17:17] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:17:17] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:17:17] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:17:18] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:17:18] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:24:11] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:24:11] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:24:12] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:24:12] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 11:24:12] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:24:12] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:24:12] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:24:12] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:24:12] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:24:12] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:24:12] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:24:12] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:24:12] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:24:20] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:24:20] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:36:26] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:36:26] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:36:26] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:36:26] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 11:36:26] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:36:26] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:36:26] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:36:26] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:36:26] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:36:26] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:36:26] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:36:27] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:36:27] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:36:36] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:36:46] [Level:51] [Information:打开通道失败.] [   在 SmartEye_Demo.EventHandler.Dialog_OnDialogEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode, Int32 mediaDir) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 92]
+[Time:2017-08-16 11:37:59] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:37:59] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:37:59] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:37:59] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:37:59] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 11:37:59] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:37:59] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:37:59] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:37:59] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:37:59] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:37:59] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:38:00] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:38:00] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:38:07] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:38:08] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:39:18] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:39:18] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:39:18] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 11:39:18] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:39:18] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:39:18] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:39:18] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:39:18] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:39:19] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:39:19] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:39:19] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:39:19] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:39:19] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:39:28] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:39:29] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:42:38] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:42:38] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:42:38] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:42:45] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:42:45] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 11:42:48] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:42:48] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:42:48] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:42:48] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:42:48] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:42:48] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:42:48] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:42:49] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:42:49] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:42:52] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:45:25] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:45:25] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:45:25] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:45:25] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:45:25] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:45:25] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:45:26] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:45:26] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:45:26] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 506]
+[Time:2017-08-16 11:45:26] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:45:26] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:45:32] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:45:36] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:50:02] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:50:02] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:50:02] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 11:50:02] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:50:02] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:50:03] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:50:03] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:50:03] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 11:50:03] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 11:50:03] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 11:50:03] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 11:50:03] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:50:03] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:50:12] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:50:13] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:52:11] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:52:11] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:52:11] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 11:52:11] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 11:52:15] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:52:21] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 11:52:25] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 11:52:31] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 11:52:31] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 11:52:31] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 11:52:31] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 11:52:31] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 11:52:31] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 11:52:32] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 11:52:32] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 13:56:13] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 13:56:13] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 13:56:14] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 13:56:14] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 13:56:18] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 13:56:24] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 13:56:28] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 13:56:34] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 13:56:34] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 13:56:34] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 13:56:34] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 13:56:34] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 13:56:34] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 13:56:34] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 13:56:34] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 14:06:39] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 14:06:39] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 14:06:39] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 14:06:39] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 14:06:43] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 14:06:49] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 14:06:55] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 14:06:59] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 14:06:59] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 14:06:59] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 14:06:59] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 14:06:59] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 14:06:59] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 14:06:59] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 14:06:59] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 14:08:44] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 14:08:44] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 14:08:44] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 14:08:44] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 14:08:48] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 14:08:54] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 14:09:00] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 14:09:04] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-16 14:09:04] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-16 14:09:04] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 14:09:04] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 14:09:04] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65792]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 14:09:04] [Level:51] [Information:已经发送打开[MNVRkaoji-2710, 65793]串口通道的命令.] [   在 SmartEye_Demo.Dialog.openTspDialog(Pu pu, Int32 channelNo) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Dialog.cs:行号 507]
+[Time:2017-08-16 14:09:04] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 14:09:04] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 14:31:35] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 14:31:35] [Level:4] [Information:打开[VG-F-4D92, 0]的视屏预览通道.]
+[Time:2017-08-16 14:31:39] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 14:31:45] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65792的串口.]
+[Time:2017-08-16 14:31:45] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65793的串口.]
+[Time:2017-08-16 14:31:46] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 14:31:47] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 14:32:09] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:9]
+.]
+[Time:2017-08-16 14:32:09] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:9]
+.]
+[Time:2017-08-16 14:32:10] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:10]
+.]
+[Time:2017-08-16 14:32:10] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:10]
+.]
+[Time:2017-08-16 14:32:10] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:10]
+.]
+[Time:2017-08-16 14:32:11] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:11]
+.]
+[Time:2017-08-16 14:32:11] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:11]
+.]
+[Time:2017-08-16 14:32:11] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:11]
+.]
+[Time:2017-08-16 14:32:11] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:11]
+.]
+[Time:2017-08-16 14:32:12] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:12]
+.]
+[Time:2017-08-16 14:32:12] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:12]
+.]
+[Time:2017-08-16 14:32:12] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:12]
+.]
+[Time:2017-08-16 14:32:13] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:13]
+.]
+[Time:2017-08-16 14:32:13] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:13]
+.]
+[Time:2017-08-16 14:32:13] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:13]
+.]
+[Time:2017-08-16 14:32:14] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:14]
+.]
+[Time:2017-08-16 14:32:14] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:14]
+.]
+[Time:2017-08-16 14:32:14] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:14]
+.]
+[Time:2017-08-16 14:32:15] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:15]
+.]
+[Time:2017-08-16 14:32:15] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:15]
+.]
+[Time:2017-08-16 14:32:16] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:16]
+.]
+[Time:2017-08-16 14:32:16] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:16]
+.]
+[Time:2017-08-16 14:32:17] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:17]
+.]
+[Time:2017-08-16 14:32:17] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:17]
+.]
+[Time:2017-08-16 14:32:17] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:17]
+.]
+[Time:2017-08-16 14:32:18] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:18]
+.]
+[Time:2017-08-16 14:32:18] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:18]
+.]
+[Time:2017-08-16 14:32:18] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:18]
+.]
+[Time:2017-08-16 14:32:22] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:22]
+.]
+[Time:2017-08-16 14:32:22] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:22]
+.]
+[Time:2017-08-16 14:32:23] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:23]
+.]
+[Time:2017-08-16 14:32:23] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:23]
+.]
+[Time:2017-08-16 14:32:24] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:24]
+.]
+[Time:2017-08-16 14:32:24] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:24]
+.]
+[Time:2017-08-16 14:32:25] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:25]
+.]
+[Time:2017-08-16 14:32:25] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:25]
+.]
+[Time:2017-08-16 14:32:26] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:26]
+.]
+[Time:2017-08-16 14:32:26] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:26]
+.]
+[Time:2017-08-16 14:32:27] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:27]
+.]
+[Time:2017-08-16 14:32:27] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:27]
+.]
+[Time:2017-08-16 14:32:28] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:28]
+.]
+[Time:2017-08-16 14:32:28] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:28]
+.]
+[Time:2017-08-16 14:32:29] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:29]
+.]
+[Time:2017-08-16 14:32:29] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:29]
+.]
+[Time:2017-08-16 14:32:30] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:30]
+.]
+[Time:2017-08-16 14:32:30] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:30]
+.]
+[Time:2017-08-16 14:32:31] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:31]
+.]
+[Time:2017-08-16 14:32:31] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:31]
+.]
+[Time:2017-08-16 14:32:32] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:32]
+.]
+[Time:2017-08-16 14:32:32] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:32]
+.]
+[Time:2017-08-16 14:32:33] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:33]
+.]
+[Time:2017-08-16 14:32:33] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:33]
+.]
+[Time:2017-08-16 14:32:34] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:34]
+.]
+[Time:2017-08-16 14:32:34] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:34]
+.]
+[Time:2017-08-16 14:32:35] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:35]
+.]
+[Time:2017-08-16 14:32:35] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:35]
+.]
+[Time:2017-08-16 14:32:36] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:36]
+.]
+[Time:2017-08-16 14:32:36] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:36]
+.]
+[Time:2017-08-16 14:32:37] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:37]
+.]
+[Time:2017-08-16 14:32:37] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:37]
+.]
+[Time:2017-08-16 14:32:47] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:32:47]
+.]
+[Time:2017-08-16 14:32:47] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:32:47]
+.]
+[Time:2017-08-16 14:37:30] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 14:40:01] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 14:40:01] [Level:4] [Information:打开[VG-F-4D92, 0]的视屏预览通道.]
+[Time:2017-08-16 14:40:03] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 14:40:11] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65792的串口.]
+[Time:2017-08-16 14:40:11] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65793的串口.]
+[Time:2017-08-16 14:40:11] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 14:40:13] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 14:40:17] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:40:17]
+.]
+[Time:2017-08-16 14:40:17] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:40:17]
+.]
+[Time:2017-08-16 14:40:26] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:40:26]
+.]
+[Time:2017-08-16 14:40:26] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:40:26]
+.]
+[Time:2017-08-16 14:41:09] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 14:48:00] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 14:48:00] [Level:4] [Information:打开[VG-F-4D92, 0]的视屏预览通道.]
+[Time:2017-08-16 14:48:02] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 14:48:10] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65792的串口.]
+[Time:2017-08-16 14:48:10] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65793的串口.]
+[Time:2017-08-16 14:48:10] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 14:48:12] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 14:50:19] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [14:50:1]
+.]
+[Time:2017-08-16 14:51:24] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [14:51:18]
+.]
+[Time:2017-08-16 15:07:41] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 15:07:41] [Level:4] [Information:打开[VG-F-4D92, 0]的视屏预览通道.]
+[Time:2017-08-16 15:07:43] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 15:07:51] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65792的串口.]
+[Time:2017-08-16 15:07:51] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65793的串口.]
+[Time:2017-08-16 15:07:52] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 15:07:53] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 15:08:19] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:19]
+.]
+[Time:2017-08-16 15:08:19] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:19]
+.]
+[Time:2017-08-16 15:08:44] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:44]
+.]
+[Time:2017-08-16 15:08:44] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:44]
+.]
+[Time:2017-08-16 15:08:45] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:45]
+.]
+[Time:2017-08-16 15:08:45] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:45]
+.]
+[Time:2017-08-16 15:08:46] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:46]
+.]
+[Time:2017-08-16 15:08:46] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:46]
+.]
+[Time:2017-08-16 15:08:47] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:47]
+.]
+[Time:2017-08-16 15:08:47] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:47]
+.]
+[Time:2017-08-16 15:08:48] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:48]
+.]
+[Time:2017-08-16 15:08:48] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:48]
+.]
+[Time:2017-08-16 15:08:49] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:49]
+.]
+[Time:2017-08-16 15:08:49] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:49]
+.]
+[Time:2017-08-16 15:08:50] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:50]
+.]
+[Time:2017-08-16 15:08:50] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:50]
+.]
+[Time:2017-08-16 15:08:51] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:51]
+.]
+[Time:2017-08-16 15:08:51] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:51]
+.]
+[Time:2017-08-16 15:08:52] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:52]
+.]
+[Time:2017-08-16 15:08:52] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:52]
+.]
+[Time:2017-08-16 15:08:53] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:53]
+.]
+[Time:2017-08-16 15:08:53] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:53]
+.]
+[Time:2017-08-16 15:08:54] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:54]
+.]
+[Time:2017-08-16 15:08:54] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:54]
+.]
+[Time:2017-08-16 15:08:55] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:55]
+.]
+[Time:2017-08-16 15:08:55] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:55]
+.]
+[Time:2017-08-16 15:08:56] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:56]
+.]
+[Time:2017-08-16 15:08:56] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:56]
+.]
+[Time:2017-08-16 15:08:57] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:57]
+.]
+[Time:2017-08-16 15:08:57] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:57]
+.]
+[Time:2017-08-16 15:08:58] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:58]
+.]
+[Time:2017-08-16 15:08:58] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:58]
+.]
+[Time:2017-08-16 15:08:59] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:8:59]
+.]
+[Time:2017-08-16 15:08:59] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:8:59]
+.]
+[Time:2017-08-16 15:09:00] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:9:0]
+.]
+[Time:2017-08-16 15:09:00] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:9:0]
+.]
+[Time:2017-08-16 15:09:01] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:9:1]
+.]
+[Time:2017-08-16 15:09:01] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:9:1]
+.]
+[Time:2017-08-16 15:09:53] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 15:15:24] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 15:15:24] [Level:4] [Information:打开[VG-F-4D92, 0]的视屏预览通道.]
+[Time:2017-08-16 15:15:28] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 15:15:34] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65792的串口.]
+[Time:2017-08-16 15:15:34] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65793的串口.]
+[Time:2017-08-16 15:15:35] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 15:15:36] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 15:15:41] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:15:41]
+.]
+[Time:2017-08-16 15:15:41] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:15:41]
+.]
+[Time:2017-08-16 15:19:19] [Level:2] [Information:PU_4D92-65792 MSG:镍  ?(  + 弘换痉???9,30 [15:19:19]
+.]
+[Time:2017-08-16 15:19:19] [Level:2] [Information:PU_4D92-65792 MSG:?啻~??€?葵净换 
+鑨# 効?,
+?浛痪?葵奎>;#??哮楚x?0?杏 [15:19:19]
+.]
+[Time:2017-08-16 15:19:33] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 15:20:06] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 15:20:06] [Level:4] [Information:打开[VG-F-4D92, 0]的视屏预览通道.]
+[Time:2017-08-16 15:20:10] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 15:20:16] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65792的串口.]
+[Time:2017-08-16 15:20:16] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65793的串口.]
+[Time:2017-08-16 15:20:17] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 15:20:18] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 15:24:45] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 15:24:45] [Level:4] [Information:打开[VG-F-4D92, 0]的视屏预览通道.]
+[Time:2017-08-16 15:24:47] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 15:24:55] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65792的串口.]
+[Time:2017-08-16 15:24:55] [Level:0] [Information:正在打开设备:VG-F-4D92, 通道:65793的串口.]
+[Time:2017-08-16 15:24:55] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 152]
+[Time:2017-08-16 15:24:57] [Level:0] [Information:打开串口通道成功.]
+[Time:2017-08-16 15:25:50] [Level:2] [Information:PU_4D92-65792 MSG:8铭aqI鉈`A90@QAa@!p汔8x
+??烃? [15:25:50]
+.]
+[Time:2017-08-16 15:25:51] [Level:2] [Information:PU_4D92-65792 MSG:B?Q?2s?丑?~L}MM閐?9??焖曙>詾?黜/飋锕mh蝟?氪o?蜐?*{)8:
+3脄+廼"??X(?酇绬!A!@(J P H
+G琪鱫M鵆N潰仯?D?琣淛芬Mq1b囻?乵去p#?>濝嚇非摌 [15:25:51]
+.]
+[Time:2017-08-16 15:25:51] [Level:2] [Information:PU_4D92-65792 MSG:鱷w?老 [15:25:51]
+.]
+[Time:2017-08-16 15:25:52] [Level:2] [Information:PU_4D92-65792 MSG:@@勿 [15:25:52]
+.]
+[Time:2017-08-16 15:25:52] [Level:2] [Information:PU_4D92-65792 MSG:@@@@@@?PQP P#!@a @@@€B€@@@@@@€x鱷 [15:25:52]
+.]
+[Time:2017-08-16 15:25:53] [Level:2] [Information:PU_4D92-65792 MSG:繞蝼1?傈 [15:25:53]
+.]
+[Time:2017-08-16 15:25:53] [Level:2] [Information:PU_4D92-65792 MSG:? [15:25:53]
+.]
+[Time:2017-08-16 15:25:54] [Level:2] [Information:PU_4D92-65792 MSG:慂? [15:25:54]
+.]
+[Time:2017-08-16 15:27:06] [Level:2] [Information:PU_4D92-65792 MSG:55 00 00 A1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [15:27:6]
+.]
+[Time:2017-08-16 15:27:06] [Level:2] [Information:PU_4D92-65792 MSG: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E EE AA AA [15:27:6]
+.]
+[Time:2017-08-16 16:22:45] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 16:22:50] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 16:23:02] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 16:23:37] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 16:23:43] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 16:23:46] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-08-16 16:24:06] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-16 16:24:09] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-16 16:24:55] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-16 16:25:00] [Level:3] [Information:打开通道成功.]

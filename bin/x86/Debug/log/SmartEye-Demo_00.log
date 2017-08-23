@@ -1,0 +1,8 @@
+[2017-08-02 10:57:59.877][INFO..][CUGlobal]:network thread started (3176)
+[2017-08-02 10:57:59.877][INFO..][CUGlobal]:codec thread started (2440)
+[2017-08-02 10:57:59.877][INFO..][CUGlobal]:codec thread started (8952)
+[2017-08-02 10:57:59.877][INFO..][CUGlobal]:storage thread started (9588)
+[2017-08-02 10:57:59.917][INFO..][CUGlobal]:audioRender thread started (8784)
+[2017-08-02 10:57:59.917][INFO..][CUGlobal]:audioCapture thread started (2020)
+[2017-08-02 10:57:59.920][INFO..][CUGlobal]:videoRender thread started (10028)
+[2017-08-02 10:57:59.920][INFO..][CUGlobal]:libBVCU Opened

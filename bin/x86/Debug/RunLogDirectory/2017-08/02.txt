@@ -1,0 +1,104 @@
+[Time:2017-08-02 09:26:38] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 09:26:38] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 09:26:39] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 09:26:42] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-02 09:26:46] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 09:26:56] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 09:27:01] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 09:46:53] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 09:46:53] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 09:46:54] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 09:46:57] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 09:47:01] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 09:59:14] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:03:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:03:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:03:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:03:14] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-02 10:03:18] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:03:24] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 10:03:30] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:04:16] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:04:16] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:04:16] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:04:19] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-02 10:04:23] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:04:25] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 10:04:31] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:04:54] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:04:54] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:04:54] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:04:57] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-02 10:05:01] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:05:05] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 10:05:11] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:05:52] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:05:52] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:05:53] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:05:56] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-02 10:06:00] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:06:03] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 10:06:09] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:09:00] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:09:00] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:09:01] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:10:59] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:10:59] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:10:59] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:11:02] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 10:11:06] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:12:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:12:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:12:09] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:12:12] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-02 10:12:16] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:12:18] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 10:12:24] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:13:17] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 10:13:23] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:20:59] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:20:59] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:21:00] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:24:36] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:24:36] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:24:36] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:24:39] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-02 10:24:43] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:24:59] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 10:25:03] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 10:25:13] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-02 10:25:13] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 156]
+[Time:2017-08-02 10:25:27] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65793的串口.]
+[Time:2017-08-02 10:25:27] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 156]
+[Time:2017-08-02 10:37:43] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:37:43] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:37:43] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 10:37:47] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 10:37:51] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 11:26:05] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:26:05] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:26:05] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:26:09] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-02 11:26:13] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 11:28:25] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:28:25] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:28:26] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:28:30] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-02 11:28:30] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 151]
+[Time:2017-08-02 11:39:35] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:39:35] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:39:35] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:41:47] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 11:41:52] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 11:44:34] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:44:34] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 11:44:35] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 13:45:52] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 13:45:52] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 13:45:52] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\AppAdapter\Session.cs:行号 242]
+[Time:2017-08-02 13:45:59] [Level:4] [Information:打开[MNVRkaoji-2710, 0]的视屏预览通道.]
+[Time:2017-08-02 13:46:04] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 13:46:05] [Level:4] [Information:打开[MNVRkaoji-2710, 1]的视屏预览通道.]
+[Time:2017-08-02 13:46:09] [Level:3] [Information:打开通道成功.]
+[Time:2017-08-02 13:47:55] [Level:0] [Information:正在打开设备:MNVRkaoji-2710, 通道:65792的串口.]
+[Time:2017-08-02 13:47:56] [Level:56] [Information:打开串口通道失败, 错误码:-65527.] [   在 SmartEye_Demo.EventHandler.TspDialog_OnEvent(IntPtr dialog, Int32 eventCode, Int32 errorCode) 位置 f:\MVC files\SmartEye-Demo\SmartEye-Demo\BVCUKernel\EventHandler.cs:行号 151]
