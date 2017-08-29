@@ -137,7 +137,7 @@
             this.textBoxPsw.PasswordChar = '*';
             this.textBoxPsw.Size = new System.Drawing.Size(100, 21);
             this.textBoxPsw.TabIndex = 14;
-            this.textBoxPsw.Text = "besovideo";
+            this.textBoxPsw.Text = "123456";
             // 
             // textBoxPort
             // 
@@ -162,7 +162,7 @@
             this.textBoxUsrName.Name = "textBoxUsrName";
             this.textBoxUsrName.Size = new System.Drawing.Size(100, 21);
             this.textBoxUsrName.TabIndex = 11;
-            this.textBoxUsrName.Text = "besovideo";
+            this.textBoxUsrName.Text = "admin";
             // 
             // label2
             // 
@@ -179,7 +179,7 @@
             this.textBoxIp.Name = "textBoxIp";
             this.textBoxIp.Size = new System.Drawing.Size(100, 21);
             this.textBoxIp.TabIndex = 9;
-            this.textBoxIp.Text = "61.191.27.18";
+            this.textBoxIp.Text = "106.14.154.131";
             // 
             // label1
             // 

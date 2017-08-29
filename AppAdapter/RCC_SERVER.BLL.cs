@@ -42,6 +42,7 @@ namespace SmartEye_Demo
         public static S_Frame Create(string PuId)
         {
             S_FrameBuilder sb = new S_FrameBuilder();
+            sb.AddaNci(new Frame_aNCI(aNciCmdEnum.SENSOR_READGAS, 0));
             if (PuaNCIList.Keys.Contains(PuId) && PuaNCIList[PuId].Count > 0)
             {
                 sb.AddaNci(PuaNCIList[PuId].Dequeue());

@@ -606,23 +606,27 @@ namespace SmartEye_Demo
                 //BVCU_RESULT_E_UNSUPPORTED: 不支持的操作
                 //BVCU_RESULT_E_FAILED或其他： 其他错误导致失败
                 //发送串口数据
-                int ret = BVCU.SendTspData(tspDialog.dialogHandle, tspDialog.sendData, tspDialog.sendData.Length + 1);
+                int ret = BVCU.SendTspData(tspDialog.dialogHandle, tspDialog.sendData, tspDialog.sendData.Length);
+                //string aa="123456789123456789123456789123456789123456789123456789";
+                //int ret = BVCU.SendTspData(tspDialog.dialogHandle, Encoding.UTF8.GetBytes(aa), aa.Length+1);
 
                 //发送结束后，将所有数据恢复为原始数据
-                if (tspDialog.sendData.Length != 55)
-                {
-                    byte[] sndData = Enumerable.Repeat((byte)0x00, 55).ToArray();
-                    sndData[0] = 0x55;
-                    sndData[53] = 0xAA;
-                    sndData[54] = 0xAA;
+                //if (tspDialog.sendData.Length != 55)
+                //{
+                //    byte[] sndData = Enumerable.Repeat((byte)0x00, 55).ToArray();
+                //    sndData[0] = 0x55;
+                //    sndData[53] = 0xAA;
+                //    sndData[54] = 0xAA;
 
-                    //sendData = Encoding.UTF8.GetString(sndData);
-                    tspDialog.sendData = sndData;
-                }
+                //    //sendData = Encoding.UTF8.GetString(sndData);
+                //    tspDialog.sendData = sndData;
+                //}
+
+                tspDialog.sendData = FrameFactory.Create("").ByteArray;
 
                 if (BVCU.BVCU_RESULT_S_OK == ret)
                 {
-                    LogHelper.LogHelper.RecordLog(0, "发送成功, 内容: " + Encoding.UTF8.GetString(tspDialog.sendData));
+                    LogHelper.LogHelper.RecordLog(0, "发送成功, 内容: " + tspDialog.sendData.Length.ToString());
                 }
                 else if ((int)BVCU.BVCU_Result.BVCU_RESULT_E_NOTFOUND == ret)
                 {

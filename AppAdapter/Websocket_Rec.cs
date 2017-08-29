@@ -36,7 +36,7 @@ namespace SmartEye_Demo
 
         public void startListen()
         {
-            if (server.Setup("192.168.0.114", 8087))
+            if (server.Setup("192.168.0.116", 8087))
             {
                 //开始监听
                 if (server.Start())
@@ -80,13 +80,13 @@ namespace SmartEye_Demo
                             anci = new Frame_aNCI((aNciCmdEnum)(aNciCmdEnum)Enum.Parse(typeof(aNciCmdEnum), recData_BC.CMD), recData_BC.Data);
                             FrameFactory.Load(recData_BC.PuId, anci);
                             tspDialog.sendData = FrameFactory.Create(recData_BC.PuId).ByteArray;
-                            session.Send(Encoding.UTF8.GetString(tspDialog.sendData));
+                            //session.Send(Encoding.UTF8.GetString(tspDialog.sendData));
                         }
                     }
                     
                     break;
 
-                case "Request":
+                case "REQ":
                     if (m_pu_rsDatas.ContainsKey(recData_BC.PuId))
                     {
                         JsonSerializer serializer_w = new JsonSerializer();

@@ -23,13 +23,16 @@ namespace SmartEye_Demo
         {
             dialogHandle = IntPtr.Zero;
 
-            byte[] sndData = Enumerable.Repeat((byte)0x00, 55).ToArray();
-            sndData[0] = 0x55;
-            sndData[53] = 0xAA;
-            sndData[54] = 0xAA;
+            //byte[] sndData = Enumerable.Repeat((byte)0x00, 55).ToArray();
+            //sndData[0] = 0x55;
+            //sndData[53] = 0xAA;
+            //sndData[54] = 0xAA;
+
+
+            sendData = FrameFactory.Create("").ByteArray;
 
             //sendData = Encoding.UTF8.GetString(sndData);
-            sendData = sndData;
+            //sendData = sndData;
             //sndMsg.Replace("-", "");
            
         }

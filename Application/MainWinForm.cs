@@ -666,6 +666,7 @@ namespace SmartEye_Demo
 
         string RecStr = "";
         string RecAll = "";
+        //bool is_final = false;
 
         /// <summary>
         /// 获得Tsp数据
@@ -693,37 +694,59 @@ namespace SmartEye_Demo
 
                         RecStr = pTspData.Substring(0, len);
 
-                        if (RecStr[0] == '5')
+                        //IntPtr ptemp = Marshal.AllocHGlobal(len);
+                        //Marshal.Copy(Marshal.struc, 0, ptemp, len);
+
+                        //if(RecStr.Length == 72 &&RecStr[72]=='=')
+                        //{
+                        //    is_final=true;
+                        //}
+
+                        RecAll += RecStr;
+
+
+                        //处理数据
+                        //byte[] RecData = Encoding.UTF8.GetBytes(RecAll);
+                        //byte[] nci = new byte[64];
+                        //Array.Copy(RecData, 176, nci, 0, 64);
+
+
+
+                        if (RecStr.Length==72 && RecStr[70]=='=' && RecStr[71]=='=')
                         {
-                            RecAll = RecStr;
-                        }
-                        else
-                        {
-                            RecAll += RecStr;
+                            //处理数据
+
+                            try
+                            {
+                                byte[] RecData = Convert.FromBase64String(RecAll);
+                                //byte[] RecData = Encoding.UTF8.GetBytes(RecAll);
+                                byte[] nci = new byte[64];
+
+                                Array.Copy(RecData, 176, nci, 0, 64);
+
+                                //获取传感器数据，异常数据存入数据库，否则存入内存数组，100条，等待客户端请求
+                                setNCIData(nci, puId);
+                            }
+                            catch (Exception e)
+                            {
+                                MessageBox.Show(e.Message);
+                            }
+
+                            RecAll = "";
                         }
 
                         
-
-                        if (RecAll.Length >=240)
-                        {
-                            //处理数据
-                            byte[] RecData = Encoding.UTF8.GetBytes(RecAll);
-                            byte[] nci = new byte[64];
-                            Array.Copy(RecData, 176, nci, 0, 64);
-                            //获取传感器数据，异常数据存入数据库，否则存入内存数组，100条，等待客户端请求
-                            setNCIData(nci,puId); 
-
-
-                        }
+                           
+                        
                     }
                     //如果通道号相同，则显示数据
                     if (item.Tag.ToString() == iChannelNum.ToString())
                     {
                         ListViewItem.ListViewSubItem TspData = new ListViewItem.ListViewSubItem();
-                        TspData.Text = RecAll;//pTspData;
+                        TspData.Text = RecStr;//pTspData;
                         item.SubItems[1] = TspData;
                         ListViewItem.ListViewSubItem length = new ListViewItem.ListViewSubItem();
-                        length.Text = RecAll.Length.ToString();
+                        length.Text = RecStr.Length.ToString();
                         item.SubItems[2] = length;
                         break;
                     }
