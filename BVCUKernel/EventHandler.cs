@@ -5,6 +5,7 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace SmartEye_Demo
 {
@@ -246,6 +247,11 @@ namespace SmartEye_Demo
                 bNeedClearTsp = m_dialog.clearTspDialog(puId, channel.iChannelIndex);
                 m_session.clearGpsDataList(puId, channel.iChannelIndex, bNeedClearGps | bNeedClearTsp);
                 m_session.OnRemovePu(puId);
+
+                //设备下线更改设备在数据库中的在线状态
+                string sql1 = string.Format(@"update robotdev set DevState=2 where DevId='{0}'", puId);
+                MySqlCommand mycmd = new MySqlCommand(sql1, MainWinForm.conn);
+                mycmd.ExecuteNonQuery(); 
             }
 
             Channel chnl = new Channel();

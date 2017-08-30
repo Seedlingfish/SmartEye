@@ -8,7 +8,6 @@ using System.Linq;
 using MySql.Data.MySqlClient;
 using System.Threading;
 using System.Timers;
-using System.Threading;
 using System.Collections.Generic;
 
 namespace SmartEye_Demo
@@ -20,7 +19,7 @@ namespace SmartEye_Demo
         /// 视频浏览panel
         /// </summary>
         ArrayList m_videoPanels;
-        private MySqlConnection conn;
+        public static MySqlConnection conn;
         /// <summary>
         /// SDK
         /// </summary>
@@ -29,9 +28,16 @@ namespace SmartEye_Demo
         public Websocket_Rec websocket_Rec;
 
         //存储pu对应的传感器数据
-        Dictionary<string, Queue<short[]>> pu_rsDatas;
-        short[] rsdata_Now;
-        Queue<short[]> RSdatas_Now;
+        public struct RsSlData
+        {
+            public short data;
+            public DateTime time;
+        }
+
+        Dictionary<string, Queue<RsSlData>[]> pu_rsDatas_New;
+        RsSlData rsdata_Now_New;
+        Queue<RsSlData>[] RSdatas_Now_New;
+
 
         #endregion 属性[部分]
 
@@ -42,20 +48,15 @@ namespace SmartEye_Demo
         public MainWinForm()
         {
             m_videoPanels = new ArrayList();
-
             //存储pu对应的传感器数据
-            pu_rsDatas = new Dictionary<string, Queue<short[]>>();
-
+            pu_rsDatas_New = new Dictionary<string, Queue<RsSlData>[]>();
             InitializeComponent();
-
             devideScreen();
-
-            
-
+        
             m_sdkOperator = new BVCUSdkOperator(this);
 
             //Websocket服务器监听,并传递传感器数据和dialog
-            websocket_Rec = new Websocket_Rec(pu_rsDatas,m_sdkOperator.Dialog);
+            websocket_Rec = new Websocket_Rec(pu_rsDatas_New, m_sdkOperator.Dialog);
 
             m_getPuList = new GetPuListDel(procGetPuList);//设置获得设备列表后的响应,初始化treeview
 
@@ -321,7 +322,9 @@ namespace SmartEye_Demo
 
                                     listViewGPSData.Items.Add(item);
 
-
+                                    string sql1 = string.Format(@"update robotdev set DevState=0 where DevId='{0}'",pu.id);
+                                    MySqlCommand mycmd = new MySqlCommand(sql1, conn);
+                                    mycmd.ExecuteNonQuery(); 
 
                                 }
                             }
@@ -357,8 +360,6 @@ namespace SmartEye_Demo
                                             break;
                                         }
                                     }
-
-                                    Thread.Sleep(10000);
                                 }
                             }
 
@@ -712,24 +713,31 @@ namespace SmartEye_Demo
 
 
 
-                        if (RecStr.Length==72 && RecStr[70]=='=' && RecStr[71]=='=')
+                        if (RecStr.Length == 72 && RecAll.Length ==328 && RecStr[70] == '=' && RecStr[71] == '=')
                         {
                             //处理数据
+                            byte[] RecData=new byte[244];
 
                             try
                             {
-                                byte[] RecData = Convert.FromBase64String(RecAll);
+                                RecData = Convert.FromBase64String(RecAll);
                                 //byte[] RecData = Encoding.UTF8.GetBytes(RecAll);
+                                
+                            }
+                            catch (Exception e)
+                            {
+                                MessageBox.Show(e.Message);
+                            }
+
+                            if (RecData[0] == 0x55)
+                            {
+
                                 byte[] nci = new byte[64];
 
                                 Array.Copy(RecData, 176, nci, 0, 64);
 
                                 //获取传感器数据，异常数据存入数据库，否则存入内存数组，100条，等待客户端请求
                                 setNCIData(nci, puId);
-                            }
-                            catch (Exception e)
-                            {
-                                MessageBox.Show(e.Message);
                             }
 
                             RecAll = "";
@@ -753,6 +761,7 @@ namespace SmartEye_Demo
                 }
             }
         }
+
         public struct gsData
         {
             public short CO ;
@@ -776,17 +785,18 @@ namespace SmartEye_Demo
                 }
             }
 
+            gsSrData.CO = 0;
+            gsSrData.CH4 = 0;
+            gsSrData.CO2 = 0;
+            gsSrData.H2S = 0;
+            gsSrData.O2 = 0;
+            gsSrData.NH3 = 0;
+
             for (int i = 0; i < 8; i++)
             {
                 if (nciOrder[i, 0] == 0x0e && nciOrder[i, 1] == 0x01)
                 {
-                    gsSrData.CO = 0;
-                    gsSrData.CH4 = 0;
-                    gsSrData.CO2 = 0;
-                    gsSrData.H2S = 0;
-                    gsSrData.O2 = 0;
-                    gsSrData.NH3 = 0;
-
+                    
                     if (nciOrder[i, 2] == 0x01)
                     {
                         //get value of H2S content 
@@ -812,33 +822,7 @@ namespace SmartEye_Demo
                         gsSrData.CH4 = bytes2short(new byte[] { nciOrder[i, 7], nciOrder[i, 6] });
                         gsSrData.CO2 = bytes2short(new byte[] { nciOrder[i, 5], nciOrder[i, 4] });
 
-                    }
-
-                    //Queue<short[]> rsdata_Now = new Queue<short[]>();
-                    rsdata_Now=new short[]{gsSrData.CO, gsSrData.CO2, gsSrData.H2S, gsSrData.NH3};
-
-                    if (pu_rsDatas.ContainsKey(puid))
-                    {
-                        if (pu_rsDatas[puid].Count >= 100)
-                        {
-                            pu_rsDatas[puid].Dequeue();
-                        }
-                        pu_rsDatas[puid].Enqueue(rsdata_Now);
-                    }
-                    else
-                    {
-                        RSdatas_Now = new Queue<short[]>();
-                        RSdatas_Now.Enqueue(rsdata_Now);
-                        pu_rsDatas.Add(puid, RSdatas_Now);
-                    }
-
-                   
-                    //存入数据库
-                    //string sql1 = string.Format(@"insert into gassensordata(DataTime,CO,CO2,H2S,NH3) values('{0}', '{1}', '{2}', '{3}', '{4}')", DateTime.Now, gsSrData.CO, gsSrData.CO2, gsSrData.H2S, gsSrData.NH3);
-                    //MySqlCommand mycmd = new MySqlCommand(sql1, conn);
-                    //mycmd.ExecuteNonQuery();              
-               
-
+                    }                              
                 }
 
                 //测试
@@ -853,6 +837,76 @@ namespace SmartEye_Demo
                 //MySqlCommand mycmd = new MySqlCommand(sql1, conn);
                 //mycmd.ExecuteNonQuery(); 
             }
+
+            //修改区域
+            
+            //如果未存储该设备ID，则初始化一个4×100队列，添加入字典
+            if (!pu_rsDatas_New.ContainsKey(puid))
+            {
+                RSdatas_Now_New = new Queue<RsSlData>[4];                
+                
+                for (int j = 0; j < 4; j++)
+                {
+                    RSdatas_Now_New[j] = new Queue<RsSlData>();
+
+                    for (int k = 0; k < 100; k++)
+                    {
+                        rsdata_Now_New = new RsSlData
+                        {
+                            data = 0,
+                            time = DateTime.Now
+                        };
+
+                        RSdatas_Now_New[j].Enqueue(rsdata_Now_New);
+                    }
+                }
+                pu_rsDatas_New.Add(puid, RSdatas_Now_New);
+            }
+
+            //判断是否接收到数据，如接收到，则按对应传感器数据队列存储
+            for (int m = 0; m < 4; m++)
+            {           
+                short gas_data=0;
+                switch (m)
+                {
+                    case 0:
+                        gas_data = gsSrData.CO;
+                        break;
+                    case 1:
+                        gas_data = gsSrData.CO2;
+                        break;
+                    case 2:
+                        gas_data = gsSrData.H2S;
+                        break;
+                    case 3:
+                        gas_data = gsSrData.NH3;
+                        break;
+                    default:
+                        break;
+                }
+
+                if (gas_data != 0)
+                {
+                    rsdata_Now_New = new RsSlData
+                    {
+                        data = gas_data,
+                        time = DateTime.Now
+                    };
+
+                    pu_rsDatas_New[puid][m].Dequeue();
+                    pu_rsDatas_New[puid][m].Enqueue(rsdata_Now_New);
+                }
+            }
+            
+            //修改区域
+
+
+
+
+            //存入数据库
+            //string sql1 = string.Format(@"insert into gassensordata(DataTime,CO,CO2,H2S,NH3) values('{0}', '{1}', '{2}', '{3}', '{4}')", DateTime.Now, gsSrData.CO, gsSrData.CO2, gsSrData.H2S, gsSrData.NH3);
+            //MySqlCommand mycmd = new MySqlCommand(sql1, conn);
+            //mycmd.ExecuteNonQuery();              
 
         }
 

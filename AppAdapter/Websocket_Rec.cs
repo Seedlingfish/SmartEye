@@ -17,10 +17,10 @@ namespace SmartEye_Demo
         WebSocketServer server = new WebSocketServer();
         WebSocketSession session = null;
 
-        Dictionary<string, Queue<short[]>> m_pu_rsDatas;
+        Dictionary<string, Queue<MainWinForm.RsSlData>[]> m_pu_rsDatas;
         Dialog m_dialog;
 
-        public Websocket_Rec(Dictionary<string, Queue<short[]>> pu_rsDatas,Dialog dialog)
+        public Websocket_Rec(Dictionary<string, Queue<MainWinForm.RsSlData>[]> pu_rsDatas,Dialog dialog)
         {
             this.m_pu_rsDatas = pu_rsDatas;
             this.m_dialog = dialog;
