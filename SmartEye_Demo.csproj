@@ -94,6 +94,7 @@
     <Compile Include="AppAdapter\RCC_SERVER.BLL.cs" />
     <Compile Include="AppAdapter\Server.cs" />
     <Compile Include="AppAdapter\Session.cs" />
+    <Compile Include="AppAdapter\UDPsocket_Rec.cs" />
     <Compile Include="AppAdapter\Websocket_Rec.cs" />
     <Compile Include="Application\MainWinForm.cs">
       <SubType>Form</SubType>

@@ -26,12 +26,14 @@ namespace SmartEye_Demo
         public BVCUSdkOperator m_sdkOperator;
         public System.Timers.Timer sndData_timer;
         public Websocket_Rec websocket_Rec;
+        public UDPsocket_Rec udpsocket_Rec;
+        public System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1)); // 当地时区
 
         //存储pu对应的传感器数据
         public struct RsSlData
         {
             public short data;
-            public DateTime time;
+            public long time;
         }
 
         Dictionary<string, Queue<RsSlData>[]> pu_rsDatas_New;
@@ -57,6 +59,9 @@ namespace SmartEye_Demo
 
             //Websocket服务器监听,并传递传感器数据和dialog
             websocket_Rec = new Websocket_Rec(pu_rsDatas_New, m_sdkOperator.Dialog);
+
+            //Udpsocket监听控制箱是否接管
+            udpsocket_Rec = new UDPsocket_Rec(m_sdkOperator.Dialog);
 
             m_getPuList = new GetPuListDel(procGetPuList);//设置获得设备列表后的响应,初始化treeview
 
@@ -322,9 +327,10 @@ namespace SmartEye_Demo
 
                                     listViewGPSData.Items.Add(item);
 
-                                    string sql1 = string.Format(@"update robotdev set DevState=0 where DevId='{0}'",pu.id);
-                                    MySqlCommand mycmd = new MySqlCommand(sql1, conn);
-                                    mycmd.ExecuteNonQuery(); 
+                                    //将状态写入数据库
+                                    //string sql1 = string.Format(@"update robotdev set DevState=0 where DevId='{0}'",pu.id);
+                                    //MySqlCommand mycmd = new MySqlCommand(sql1, conn);
+                                    //mycmd.ExecuteNonQuery(); 
 
                                 }
                             }
@@ -854,7 +860,7 @@ namespace SmartEye_Demo
                         rsdata_Now_New = new RsSlData
                         {
                             data = 0,
-                            time = DateTime.Now
+                            time = (long)(DateTime.Now - startTime).TotalMilliseconds
                         };
 
                         RSdatas_Now_New[j].Enqueue(rsdata_Now_New);
@@ -890,7 +896,7 @@ namespace SmartEye_Demo
                     rsdata_Now_New = new RsSlData
                     {
                         data = gas_data,
-                        time = DateTime.Now
+                        time = (long)(DateTime.Now - startTime).TotalMilliseconds
                     };
 
                     pu_rsDatas_New[puid][m].Dequeue();
@@ -1023,6 +1029,10 @@ namespace SmartEye_Demo
             //开启新线程，监听客户端请求
             Thread rec_Brequest = new System.Threading.Thread(websocket_Rec.startListen);
             rec_Brequest.Start();
+
+            //开启新线程，监听控制箱是否接管
+            Thread rec_roboState = new Thread(udpsocket_Rec.startRec);
+            rec_roboState.Start();
 
 
             //测试

@@ -18,6 +18,7 @@ namespace SmartEye_Demo
         public DateTime timeStamp;  // 对话当前显示帧的时间戳
         public bool recording;      // 是否正在录像
         public byte[] sendData;     // 对应dialog发送给设备的数据
+        public int state;//机器人状态
     
         public OneDialog()
         {
@@ -30,6 +31,7 @@ namespace SmartEye_Demo
 
 
             sendData = FrameFactory.Create("").ByteArray;
+            //state = 2;
 
             //sendData = Encoding.UTF8.GetString(sndData);
             //sendData = sndData;

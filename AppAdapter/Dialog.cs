@@ -519,6 +519,8 @@ namespace SmartEye_Demo
                 dlg.dialogHandle = dialog;
                 dlg.channelNo = channelNo;
                 dlg.pu = pu;
+                //TSP通道在线可接管
+                dlg.state = 0;
                 m_tspDialogs.Add(dlg);
 
                 LogHelper.LogHelper.RecordLog(0, string.Format("正在打开设备:{0}, 通道:{1}的串口", pu.puName, channelNo));
@@ -529,6 +531,15 @@ namespace SmartEye_Demo
                 string errorMsg = string.Format("打开{0}的{1}串口失败(错误码:{2})", pu.puName, channelNo, ret);
                 MessageBox.Show(errorMsg);
                 LogHelper.LogHelper.RecordLog(100, errorMsg);
+
+                //如果串口打开失败，则将该TSP通道状态置为离线
+                foreach (OneDialog tspDialog in m_tspDialogs)
+                {
+                    if (tspDialog.pu.id.Equals(pu.id, StringComparison.CurrentCultureIgnoreCase) && tspDialog.channelNo == channelNo)
+                    {
+                        tspDialog.state = 2;
+                    }
+                }
             }
             return -1;
         }

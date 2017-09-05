@@ -20,6 +20,7 @@ namespace SmartEye_Demo
         Dictionary<string, Queue<MainWinForm.RsSlData>[]> m_pu_rsDatas;
         Dialog m_dialog;
 
+
         public Websocket_Rec(Dictionary<string, Queue<MainWinForm.RsSlData>[]> pu_rsDatas,Dialog dialog)
         {
             this.m_pu_rsDatas = pu_rsDatas;
@@ -29,10 +30,27 @@ namespace SmartEye_Demo
         struct RecData_BC
         {
             public string PuId { get; set; }
-            public string Type { get; set; }
+            public string Event { get; set; }
             public string CMD { get; set; }
             public int Data { get; set; }
         }
+
+        public struct RsAlDatas
+        {
+            public Queue<MainWinForm.RsSlData> CO;
+            public Queue<MainWinForm.RsSlData> CO2;
+            public Queue<MainWinForm.RsSlData> O2;
+            public Queue<MainWinForm.RsSlData> H2S;
+        }
+
+        public struct SndData_BC
+        {
+            public string Event;
+            public RsAlDatas data;
+            public int status;
+        }
+
+ 
 
         public void startListen()
         {
@@ -69,7 +87,7 @@ namespace SmartEye_Demo
             StringReader sr = new StringReader(value);
             RecData_BC recData_BC = (RecData_BC)serializer.Deserialize(new JsonTextReader(sr), typeof(RecData_BC));
 
-            switch (recData_BC.Type)
+            switch (recData_BC.Event)
             {
                 case "CTL":
                     foreach (OneDialog tspDialog in m_dialog.m_tspDialogs)
@@ -89,9 +107,25 @@ namespace SmartEye_Demo
                 case "REQ":
                     if (m_pu_rsDatas.ContainsKey(recData_BC.PuId))
                     {
+                        RsAlDatas rsAlDatas = new RsAlDatas
+                        {
+                            CO = m_pu_rsDatas[recData_BC.PuId][0],
+                            CO2 = m_pu_rsDatas[recData_BC.PuId][1],
+                            O2 = m_pu_rsDatas[recData_BC.PuId][2],
+                            H2S = m_pu_rsDatas[recData_BC.PuId][3]
+
+                        };
+
+                        SndData_BC sndData = new SndData_BC
+                        {
+                            Event = "DATA",
+                            data = rsAlDatas,
+                            status = OnlineState(recData_BC.PuId)
+                        };
+
                         JsonSerializer serializer_w = new JsonSerializer();
                         StringWriter sw = new StringWriter();
-                        serializer_w.Serialize(new JsonTextWriter(sw), m_pu_rsDatas[recData_BC.PuId]);
+                        serializer_w.Serialize(new JsonTextWriter(sw), sndData);
                         session.Send(sw.GetStringBuilder().ToString());
                     }
 
@@ -103,6 +137,19 @@ namespace SmartEye_Demo
             //测试
             //session.Send(m_pu_rsDatas["TBGY"].ElementAt(0)[0].ToString());
            
+        }
+
+        //查找设备状态，如果查找到对应puid在线的TSP通道，则读取TSP通道状态，如果未查到，则返回离线
+        public int OnlineState(string puid)
+        {
+            foreach (OneDialog tspDialog in m_dialog.m_tspDialogs)
+            {
+                if (tspDialog.pu.id == puid)
+                {
+                    return tspDialog.state;
+                }
+            }
+            return 2;
         }
 
        

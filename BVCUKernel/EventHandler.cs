@@ -249,9 +249,9 @@ namespace SmartEye_Demo
                 m_session.OnRemovePu(puId);
 
                 //设备下线更改设备在数据库中的在线状态
-                string sql1 = string.Format(@"update robotdev set DevState=2 where DevId='{0}'", puId);
-                MySqlCommand mycmd = new MySqlCommand(sql1, MainWinForm.conn);
-                mycmd.ExecuteNonQuery(); 
+                //string sql1 = string.Format(@"update robotdev set DevState=2 where DevId='{0}'", puId);
+                //MySqlCommand mycmd = new MySqlCommand(sql1, MainWinForm.conn);
+                //mycmd.ExecuteNonQuery(); 
             }
 
             Channel chnl = new Channel();
