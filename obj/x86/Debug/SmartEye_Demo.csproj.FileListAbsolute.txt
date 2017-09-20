@@ -6,15 +6,29 @@ F:\MVC files\SmartEye-Demo\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.pdb
 F:\MVC files\SmartEye-Demo\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.exe
 F:\MVC files\SmartEye-Demo\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.pdb
 F:\MVC files\SmartEye-Demo\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csprojResolveAssemblyReference.cache
-F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.exe
-F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.pdb
-F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csprojResolveAssemblyReference.cache
-F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.MainWinForm.resources
-F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.Properties.Resources.resources
-F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csproj.GenerateResource.Cache
 F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.exe.config
 F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.exe
 F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.pdb
+F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.MainWinForm.resources
+F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.Properties.Resources.resources
+F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csproj.GenerateResource.Cache
+F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.exe
+F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.pdb
 F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\log4net.dll
+F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\Newtonsoft.Json.xml
 F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SuperWebSocket.xml
 F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\log4net.xml
+F:\MVC files\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csprojResolveAssemblyReference.cache
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.exe.config
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.exe
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.pdb
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.exe
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.pdb
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\log4net.dll
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\Newtonsoft.Json.xml
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SuperWebSocket.xml
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\log4net.xml
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csprojResolveAssemblyReference.cache
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.MainWinForm.resources
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.Properties.Resources.resources
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csproj.GenerateResource.Cache

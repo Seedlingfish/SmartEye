@@ -9,6 +9,10 @@ using MySql.Data.MySqlClient;
 using System.Threading;
 using System.Timers;
 using System.Collections.Generic;
+using System.Configuration;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.IO;
 
 namespace SmartEye_Demo
 {
@@ -26,7 +30,7 @@ namespace SmartEye_Demo
         public BVCUSdkOperator m_sdkOperator;
         public System.Timers.Timer sndData_timer;
         public Websocket_Rec websocket_Rec;
-        public UDPsocket_Rec udpsocket_Rec;
+        //public UDPsocket_Rec udpsocket_Rec;
         public System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1)); // 当地时区
 
         //存储pu对应的传感器数据
@@ -36,10 +40,35 @@ namespace SmartEye_Demo
             public long time;
         }
 
+        public struct gsData
+        {
+            public short CO;
+            public short CO2;
+            public short H2S;
+            public short NH3;
+            public short CH4;
+            public short O2;
+        }
+        public gsData gsSrData = new gsData();
+        public gsData gsSrData_SD;
+
+
+        //存取获得的传感器数据
         Dictionary<string, Queue<RsSlData>[]> pu_rsDatas_New;
         RsSlData rsdata_Now_New;
         Queue<RsSlData>[] RSdatas_Now_New;
 
+        public struct ExRsData
+        {
+            public short data;
+            public short dis;
+        }
+
+        //存取超标的传感器数据
+        Dictionary<string, Queue<ExRsData>[]> ex_rsDatas;
+        Queue<ExRsData>[] RsDatas_Now_Ex;
+        ExRsData exdata_Now;
+        string[] gas;
 
         #endregion 属性[部分]
 
@@ -49,9 +78,24 @@ namespace SmartEye_Demo
         /// </summary>
         public MainWinForm()
         {
+            //读取配置文件，获取传感器超标阈值
+            gsSrData_SD = new gsData
+            {
+                CO=Convert.ToInt16( ConfigurationManager.AppSettings["CO"]),
+                CO2 = Convert.ToInt16(ConfigurationManager.AppSettings["CO2"]),
+                NH3 = Convert.ToInt16(ConfigurationManager.AppSettings["NH3"]),
+                H2S = Convert.ToInt16(ConfigurationManager.AppSettings["H2S"]),
+                CH4=0,
+                O2=0
+            };
+
             m_videoPanels = new ArrayList();
             //存储pu对应的传感器数据
             pu_rsDatas_New = new Dictionary<string, Queue<RsSlData>[]>();
+            //存储超标的异常数据
+            ex_rsDatas = new Dictionary<string, Queue<ExRsData>[]>();
+            gas = new string[] { "CO", "CO2", "H2S", "NH3" };
+           
             InitializeComponent();
             devideScreen();
         
@@ -61,7 +105,7 @@ namespace SmartEye_Demo
             websocket_Rec = new Websocket_Rec(pu_rsDatas_New, m_sdkOperator.Dialog);
 
             //Udpsocket监听控制箱是否接管
-            udpsocket_Rec = new UDPsocket_Rec(m_sdkOperator.Dialog);
+            //udpsocket_Rec = new UDPsocket_Rec(m_sdkOperator.Dialog);
 
             m_getPuList = new GetPuListDel(procGetPuList);//设置获得设备列表后的响应,初始化treeview
 
@@ -75,7 +119,7 @@ namespace SmartEye_Demo
             RecordPath = "E:\\PIPE_DATA\\TEST";
 
             //定时器
-            sndData_timer = new System.Timers.Timer(1000);
+            sndData_timer = new System.Timers.Timer(5000);
             sndData_timer.Elapsed += new ElapsedEventHandler(sndMsg_TSP);
             sndData_timer.AutoReset = true;
             sndData_timer.Enabled = false;
@@ -688,8 +732,10 @@ namespace SmartEye_Demo
                     //串口数据显示
                     {
                         DateTime dataNow = DateTime.Now;
+
                         if (pTspData.Length < len)
                             return;
+
                         string msg = string.Format("{0}-{1} MSG:{2} [{3}:{4}:{5}]\r\n", puId, iChannelNum, pTspData.Substring(0, len), dataNow.Hour, dataNow.Minute, dataNow.Second);
                         //this.tbTSPData.AppendText(msg);
                         //this.tbTSPData.ScrollToCaret();
@@ -737,6 +783,10 @@ namespace SmartEye_Demo
 
                             if (RecData[0] == 0x55)
                             {
+                                //根据接收的第二个字节改变对应Puid的设备状态
+                                byte sta1 = RecData[1];
+                                int sta = 0;
+                                ChangeState(puId, sta);
 
                                 byte[] nci = new byte[64];
 
@@ -768,16 +818,7 @@ namespace SmartEye_Demo
             }
         }
 
-        public struct gsData
-        {
-            public short CO ;
-            public short CO2;
-            public short H2S;
-            public short NH3;
-            public short CH4;
-            public short O2;
-        }
-        public gsData gsSrData = new gsData();
+       
 
         //获取传感器数据，存入数据库
         public void setNCIData(byte[] nci,string puid)
@@ -849,11 +890,13 @@ namespace SmartEye_Demo
             //如果未存储该设备ID，则初始化一个4×100队列，添加入字典
             if (!pu_rsDatas_New.ContainsKey(puid))
             {
-                RSdatas_Now_New = new Queue<RsSlData>[4];                
+                RSdatas_Now_New = new Queue<RsSlData>[4];
+                RsDatas_Now_Ex = new Queue<ExRsData>[4];     
                 
                 for (int j = 0; j < 4; j++)
                 {
                     RSdatas_Now_New[j] = new Queue<RsSlData>();
+                    RsDatas_Now_Ex[j] = new Queue<ExRsData>();
 
                     for (int k = 0; k < 100; k++)
                     {
@@ -867,30 +910,40 @@ namespace SmartEye_Demo
                     }
                 }
                 pu_rsDatas_New.Add(puid, RSdatas_Now_New);
+                ex_rsDatas.Add(puid, RsDatas_Now_Ex);
             }
+              
+            
 
             //判断是否接收到数据，如接收到，则按对应传感器数据队列存储
             for (int m = 0; m < 4; m++)
             {           
                 short gas_data=0;
+                //检验气体是否超标
+                bool is_OverRange = false;
                 switch (m)
                 {
                     case 0:
                         gas_data = gsSrData.CO;
+                        is_OverRange = gas_data > gsSrData_SD.CO;
                         break;
                     case 1:
                         gas_data = gsSrData.CO2;
+                        is_OverRange = gas_data > gsSrData_SD.CO2;
                         break;
                     case 2:
                         gas_data = gsSrData.H2S;
+                        is_OverRange = gas_data > gsSrData_SD.H2S;
                         break;
                     case 3:
                         gas_data = gsSrData.NH3;
+                        is_OverRange = gas_data > gsSrData_SD.NH3;
                         break;
                     default:
                         break;
                 }
 
+                //如果存在气体数据，则存入相应队列
                 if (gas_data != 0)
                 {
                     rsdata_Now_New = new RsSlData
@@ -902,6 +955,35 @@ namespace SmartEye_Demo
                     pu_rsDatas_New[puid][m].Dequeue();
                     pu_rsDatas_New[puid][m].Enqueue(rsdata_Now_New);
                 }
+
+                if (ex_rsDatas[puid][m].Count <= 5 && (!is_OverRange))
+                {
+                    ex_rsDatas[puid][m].Clear();
+                }
+
+                //如果超标，则存入相应队列
+                if (is_OverRange)
+                {
+                    exdata_Now = new ExRsData
+                    {
+                        data=gas_data,
+                        dis=0
+                    };
+                    ex_rsDatas[puid][m].Enqueue(exdata_Now);
+                }
+
+                if (ex_rsDatas[puid][m].Count > 5 && (!is_OverRange))
+                {
+                    JsonSerializer serializer_w = new JsonSerializer();
+                    StringWriter sw = new StringWriter();
+                    serializer_w.Serialize(new JsonTextWriter(sw), ex_rsDatas[puid][m]);
+                    string exString=sw.GetStringBuilder().ToString();
+
+                    //存入数据库
+                    //。。。。。。
+                }
+
+                
             }
             
             //修改区域
@@ -928,6 +1010,18 @@ namespace SmartEye_Demo
             return (s);
         }
 
+
+        //根据接收的状态改变tsp通道状态
+        public void ChangeState(string puid, int stat)
+        {
+            foreach (OneDialog tspDialog in m_sdkOperator.Dialog.m_tspDialogs)
+            {
+                if (tspDialog.pu.id == puid)
+                {
+                    tspDialog.state = stat;
+                }
+            }
+        }
 
 
 
@@ -1031,8 +1125,8 @@ namespace SmartEye_Demo
             rec_Brequest.Start();
 
             //开启新线程，监听控制箱是否接管
-            Thread rec_roboState = new Thread(udpsocket_Rec.startRec);
-            rec_roboState.Start();
+            //Thread rec_roboState = new Thread(udpsocket_Rec.startRec);
+            //rec_roboState.Start();
 
 
             //测试

@@ -29,7 +29,7 @@ namespace SmartEye_Demo
             ipep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 5555);
             buffer = new byte[1024];
 
-            newsock.Bind(ipep);
+           newsock.Bind(ipep);
 
             //得到客户机IP
             IPEndPoint sender = new IPEndPoint(IPAddress.Any, 0);

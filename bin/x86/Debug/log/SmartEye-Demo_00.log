@@ -6,3 +6,19 @@
 [2017-08-02 10:57:59.917][INFO..][CUGlobal]:audioCapture thread started (2020)
 [2017-08-02 10:57:59.920][INFO..][CUGlobal]:videoRender thread started (10028)
 [2017-08-02 10:57:59.920][INFO..][CUGlobal]:libBVCU Opened
+[2017-09-15 11:20:04.493][INFO..][CUGlobal]:network thread started (9328)
+[2017-09-15 11:20:04.493][INFO..][CUGlobal]:codec thread started (9272)
+[2017-09-15 11:20:04.493][INFO..][CUGlobal]:codec thread started (8796)
+[2017-09-15 11:20:04.493][INFO..][CUGlobal]:storage thread started (4952)
+[2017-09-15 11:20:04.533][INFO..][CUGlobal]:audioRender thread started (9212)
+[2017-09-15 11:20:04.533][INFO..][CUGlobal]:audioCapture thread started (8384)
+[2017-09-15 11:20:04.536][INFO..][CUGlobal]:videoRender thread started (9380)
+[2017-09-15 11:20:04.536][INFO..][CUGlobal]:libBVCU Opened
+[2017-09-15 14:13:18.047][INFO..][CUGlobal]:network thread started (7672)
+[2017-09-15 14:13:18.047][INFO..][CUGlobal]:codec thread started (6256)
+[2017-09-15 14:13:18.047][INFO..][CUGlobal]:codec thread started (8312)
+[2017-09-15 14:13:18.047][INFO..][CUGlobal]:storage thread started (2608)
+[2017-09-15 14:13:18.090][INFO..][CUGlobal]:audioRender thread started (8272)
+[2017-09-15 14:13:18.090][INFO..][CUGlobal]:audioCapture thread started (8888)
+[2017-09-15 14:13:18.094][INFO..][CUGlobal]:videoRender thread started (8412)
+[2017-09-15 14:13:18.094][INFO..][CUGlobal]:libBVCU Opened
