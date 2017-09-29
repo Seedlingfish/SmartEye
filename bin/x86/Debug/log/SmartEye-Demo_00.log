@@ -22,3 +22,11 @@
 [2017-09-15 14:13:18.090][INFO..][CUGlobal]:audioCapture thread started (8888)
 [2017-09-15 14:13:18.094][INFO..][CUGlobal]:videoRender thread started (8412)
 [2017-09-15 14:13:18.094][INFO..][CUGlobal]:libBVCU Opened
+[2017-09-29 10:10:29.068][INFO..][CUGlobal]:network thread started (5660)
+[2017-09-29 10:10:29.068][INFO..][CUGlobal]:codec thread started (7352)
+[2017-09-29 10:10:29.069][INFO..][CUGlobal]:codec thread started (10144)
+[2017-09-29 10:10:29.069][INFO..][CUGlobal]:storage thread started (10148)
+[2017-09-29 10:10:29.200][INFO..][CUGlobal]:audioRender thread started (10016)
+[2017-09-29 10:10:29.200][INFO..][CUGlobal]:audioCapture thread started (10008)
+[2017-09-29 10:10:29.204][INFO..][CUGlobal]:videoRender thread started (10020)
+[2017-09-29 10:10:29.204][INFO..][CUGlobal]:libBVCU Opened

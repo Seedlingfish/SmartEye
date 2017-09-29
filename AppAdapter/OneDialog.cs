@@ -29,6 +29,7 @@ namespace SmartEye_Demo
             //sndData[53] = 0xAA;
             //sndData[54] = 0xAA;
 
+            state = 0;
 
             sendData = FrameFactory.Create("").ByteArray;
             //state = 2;

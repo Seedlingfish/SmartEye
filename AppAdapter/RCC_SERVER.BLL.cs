@@ -265,7 +265,7 @@ namespace SmartEye_Demo
         public S_Frame()
         {
             Head = 0x55;
-            Addr = 0;
+            Addr = 0x00;
             Append = 0;
             Nck = 0;
             Temp = new Byte[] { 0xAA, 0xAA };

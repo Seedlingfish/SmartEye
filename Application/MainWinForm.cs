@@ -13,6 +13,7 @@ using System.Configuration;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.IO;
+using System.Security.Cryptography;
 
 namespace SmartEye_Demo
 {
@@ -32,6 +33,12 @@ namespace SmartEye_Demo
         public Websocket_Rec websocket_Rec;
         //public UDPsocket_Rec udpsocket_Rec;
         public System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1)); // 当地时区
+
+        //CSP随机数生成器
+        private static RNGCryptoServiceProvider rngp = new RNGCryptoServiceProvider(); 
+        private static byte[] rb = new byte[2];
+
+        private Random ro;
 
         //存储pu对应的传感器数据
         public struct RsSlData
@@ -78,6 +85,7 @@ namespace SmartEye_Demo
         /// </summary>
         public MainWinForm()
         {
+            ro = new Random(10);
             //读取配置文件，获取传感器超标阈值
             gsSrData_SD = new gsData
             {
@@ -117,6 +125,7 @@ namespace SmartEye_Demo
             m_activePanelBorder.show(panel.Location, panel.Width, panel.Height, ACTIVE_PANEL_BORDER_WIDTH);
             m_activePanel = panel;
             RecordPath = "E:\\PIPE_DATA\\TEST";
+            //RecordPath="C:\\Tests\\Datas";
 
             //定时器
             sndData_timer = new System.Timers.Timer(5000);
@@ -129,7 +138,7 @@ namespace SmartEye_Demo
             if (conn != null)
                 conn.Close();
 
-            string connStr = "server=127.0.0.1;user id=root; password=TBG244; database=controlbox; pooling=false";
+            string connStr = "server=127.0.0.1;user id=root; password=TBG244; database=antoke; pooling=false";
             try
             {
                 conn = new MySqlConnection(connStr);
@@ -784,8 +793,18 @@ namespace SmartEye_Demo
                             if (RecData[0] == 0x55)
                             {
                                 //根据接收的第二个字节改变对应Puid的设备状态
-                                byte sta1 = RecData[1];
+                                
                                 int sta = 0;
+
+                                if (RecData[1] == 0x01)
+                                {
+                                    sta = 1;
+                                }
+                                else if (RecData[1] == 0x02)
+                                {
+                                    sta = 2;
+                                }
+                                
                                 ChangeState(puId, sta);
 
                                 byte[] nci = new byte[64];
@@ -799,6 +818,10 @@ namespace SmartEye_Demo
                             RecAll = "";
                         }
 
+                        if ((RecStr.Length==72 && RecStr[70] == '=' && RecStr[71] == '=') || (RecStr.Length != 128 && RecStr.Length != 72) || RecAll.Length > 328)
+                        {
+                            RecAll = "";
+                        }
                         
                            
                         
@@ -873,12 +896,12 @@ namespace SmartEye_Demo
                 }
 
                 //测试
-                //gsSrData.CO = 1;
-                //gsSrData.CH4 = 0;
-                //gsSrData.CO2 = 2;
-                //gsSrData.H2S = 3;
-                //gsSrData.O2 = 0;
-                //gsSrData.NH3 = 0;
+                gsSrData.CO =(short)ro.Next(0,200);
+                gsSrData.CH4 = (short)ro.Next(0, 200);
+                gsSrData.CO2 = (short)ro.Next(0, 200);
+                gsSrData.H2S = (short)ro.Next(0, 200);
+                gsSrData.O2 = (short)ro.Next(0, 200);
+                gsSrData.NH3 = (short)ro.Next(0, 200);
 
                 //string sql1 = string.Format(@"insert into gassensordata(DataTime,CO,CO2,H2S,NH3) values('{0}', '{1}', '{2}', '{3}', '{4}')", DateTime.Now, gsSrData.CO, gsSrData.CO2, gsSrData.CO2, gsSrData.NH3);
                 //MySqlCommand mycmd = new MySqlCommand(sql1, conn);
@@ -956,22 +979,24 @@ namespace SmartEye_Demo
                     pu_rsDatas_New[puid][m].Enqueue(rsdata_Now_New);
                 }
 
-                if (ex_rsDatas[puid][m].Count <= 5 && (!is_OverRange))
-                {
-                    ex_rsDatas[puid][m].Clear();
-                }
-
                 //如果超标，则存入相应队列
                 if (is_OverRange)
                 {
                     exdata_Now = new ExRsData
                     {
-                        data=gas_data,
-                        dis=0
+                        data = gas_data,
+                        dis = 0
                     };
                     ex_rsDatas[puid][m].Enqueue(exdata_Now);
                 }
 
+                //如果连续异常数据未达到5个恢复正常，则清空内存对异常数据的存储
+                if (ex_rsDatas[puid][m].Count <= 5 && (!is_OverRange))
+                {
+                    ex_rsDatas[puid][m].Clear();
+                }             
+
+                //如果连续异常数据达到5个恢复正常，则将异常序列化为jason数据存入数据库，并清除对应内存
                 if (ex_rsDatas[puid][m].Count > 5 && (!is_OverRange))
                 {
                     JsonSerializer serializer_w = new JsonSerializer();
@@ -981,6 +1006,12 @@ namespace SmartEye_Demo
 
                     //存入数据库
                     //。。。。。。
+                    string sql1 = string.Format(@"insert into pipe_gas_exception(name,pipe_name,start_point,gas_cate,start_time,data) values('{0}', '{1}', '{2}', '{3}', '{4}','{5}')", DateTime.Now, "PIPE1", "PIONT1", gas[m], DateTime.Now, exString);
+                    MySqlCommand mycmd = new MySqlCommand(sql1, conn);
+                    mycmd.ExecuteNonQuery(); 
+
+                    //清空内存对异常数据的存储
+                    ex_rsDatas[puid][m].Clear();
                 }
 
                 
@@ -997,6 +1028,24 @@ namespace SmartEye_Demo
             //mycmd.ExecuteNonQuery();              
 
         }
+
+
+
+
+        /// <summary>
+        /// 产生一个非负数且最大值在 max 以下的乱数
+        /// </summary>
+        /// <param name="max">最大值</param>
+        public static short Next(short max)
+        {
+            rngp.GetBytes(rb);
+            short value = BitConverter.ToInt16(rb, 0);
+            value =(short) (value % (max + 1));
+            if (value < 0) value =(short) -value;
+            return value;
+        } 
+
+
 
         /**
      * 字节数组转短整数

@@ -54,7 +54,7 @@ namespace SmartEye_Demo
 
         public void startListen()
         {
-            if (server.Setup("172.19.87.221", 8087))
+            if (server.Setup("192.168.0.111", 8087))
             {
                 //开始监听
                 if (server.Start())

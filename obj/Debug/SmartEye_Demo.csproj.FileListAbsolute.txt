@@ -1,0 +1,17 @@
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\SmartEye-Demo.exe.config
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\SmartEye-Demo.exe
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\SmartEye-Demo.pdb
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\Newtonsoft.Json.dll
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\SuperSocket.Common.dll
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\SuperSocket.SocketBase.dll
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\SuperWebSocket.dll
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\Debug\SmartEye_Demo.csprojResolveAssemblyReference.cache
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\Debug\SmartEye_Demo.MainWinForm.resources
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\Debug\SmartEye_Demo.Properties.Resources.resources
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\Debug\SmartEye_Demo.csproj.GenerateResource.Cache
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\Debug\SmartEye-Demo.exe
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\Debug\SmartEye-Demo.pdb
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\log4net.dll
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\SuperWebSocket.xml
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\log4net.xml
+F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\Debug\Newtonsoft.Json.xml
