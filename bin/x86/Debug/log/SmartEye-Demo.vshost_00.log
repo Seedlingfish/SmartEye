@@ -984,3 +984,37 @@
 [2017-09-29 15:17:35.869][INFO..][CUGlobal]:libBVCU Opened
 [2017-09-29 15:17:40.342][INFO..][ThreadCodec]:open video decoder for PU_4D92.0
 [2017-09-29 15:17:40.342][INFO..][ThreadCodec]:open audio decoder for PU_4D92.0
+[2017-10-16 13:43:22.379][INFO..][CUGlobal]:network thread started (8032)
+[2017-10-16 13:43:22.379][INFO..][CUGlobal]:codec thread started (8452)
+[2017-10-16 13:43:22.379][INFO..][CUGlobal]:codec thread started (4812)
+[2017-10-16 13:43:22.379][INFO..][CUGlobal]:storage thread started (6336)
+[2017-10-16 13:43:22.542][INFO..][CUGlobal]:audioRender thread started (6184)
+[2017-10-16 13:43:22.542][INFO..][CUGlobal]:audioCapture thread started (7952)
+[2017-10-16 13:43:22.547][INFO..][CUGlobal]:videoRender thread started (3568)
+[2017-10-16 13:43:22.547][INFO..][CUGlobal]:libBVCU Opened
+[2017-10-16 14:11:21.310][INFO..][CUGlobal]:network thread started (5328)
+[2017-10-16 14:11:21.310][INFO..][CUGlobal]:codec thread started (3600)
+[2017-10-16 14:11:21.310][INFO..][CUGlobal]:codec thread started (8500)
+[2017-10-16 14:11:21.310][INFO..][CUGlobal]:storage thread started (7120)
+[2017-10-16 14:11:21.351][INFO..][CUGlobal]:audioRender thread started (7804)
+[2017-10-16 14:11:21.351][INFO..][CUGlobal]:audioCapture thread started (7936)
+[2017-10-16 14:11:21.354][INFO..][CUGlobal]:videoRender thread started (9196)
+[2017-10-16 14:11:21.354][INFO..][CUGlobal]:libBVCU Opened
+[2017-10-23 11:10:18.103][INFO..][CUGlobal]:network thread started (8596)
+[2017-10-23 11:10:18.104][INFO..][CUGlobal]:codec thread started (8660)
+[2017-10-23 11:10:18.104][INFO..][CUGlobal]:codec thread started (7732)
+[2017-10-23 11:10:18.104][INFO..][CUGlobal]:storage thread started (9880)
+[2017-10-23 11:10:18.576][INFO..][CUGlobal]:audioRender thread started (10068)
+[2017-10-23 11:10:18.576][INFO..][CUGlobal]:audioCapture thread started (3840)
+[2017-10-23 11:10:18.579][INFO..][CUGlobal]:videoRender thread started (8020)
+[2017-10-23 11:10:18.579][INFO..][CUGlobal]:libBVCU Opened
+[2017-10-23 11:43:04.718][INFO..][CUGlobal]:network thread started (1160)
+[2017-10-23 11:43:04.718][INFO..][CUGlobal]:codec thread started (10092)
+[2017-10-23 11:43:04.718][INFO..][CUGlobal]:codec thread started (8460)
+[2017-10-23 11:43:04.718][INFO..][CUGlobal]:storage thread started (9416)
+[2017-10-23 11:43:04.767][INFO..][CUGlobal]:audioRender thread started (6184)
+[2017-10-23 11:43:04.767][INFO..][CUGlobal]:audioCapture thread started (10148)
+[2017-10-23 11:43:04.772][INFO..][CUGlobal]:videoRender thread started (9476)
+[2017-10-23 11:43:04.772][INFO..][CUGlobal]:libBVCU Opened
+[2017-10-23 11:43:06.270][INFO..][ThreadCodec]:open video decoder for PU_4D92.0
+[2017-10-23 11:43:06.270][INFO..][ThreadCodec]:open audio decoder for PU_4D92.0

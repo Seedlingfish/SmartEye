@@ -32,3 +32,11 @@ F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\Newtonsoft.Json.xml
 F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SuperWebSocket.xml
 F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\log4net.xml
 F:\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csprojResolveAssemblyReference.cache
+F:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.exe.config
+F:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.exe
+F:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye-Demo.pdb
+F:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.exe
+F:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\bin\x86\Debug\SmartEye-Demo.pdb
+F:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.MainWinForm.resources
+F:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.Properties.Resources.resources
+F:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\obj\x86\Debug\SmartEye_Demo.csproj.GenerateResource.Cache

@@ -9,6 +9,7 @@ using SuperWebSocket;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace SmartEye_Demo
 {
@@ -54,7 +55,7 @@ namespace SmartEye_Demo
 
         public void startListen()
         {
-            if (server.Setup("192.168.0.111", 8087))
+            if (server.Setup(ConfigurationManager.AppSettings["WebSocket_Ip"], Convert.ToInt32(ConfigurationManager.AppSettings["WebSocket_Port"])))
             {
                 //开始监听
                 if (server.Start())

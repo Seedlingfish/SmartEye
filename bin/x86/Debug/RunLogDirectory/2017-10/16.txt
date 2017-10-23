@@ -1,0 +1,4 @@
+[Time:2017-10-16 14:08:53] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-10-16 14:09:40] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-10-16 14:11:23] [Level:100] [Information:&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.] [   在 SmartEye_Demo.Session.OnGetPuListFinished() 位置 f:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\AppAdapter\Session.cs:行号 244]
+[Time:2017-10-16 14:11:28] [Level:58] [Information:没有已打开的串口通道.] [   在 SmartEye_Demo.Dialog.SendTspData() 位置 f:\ATK\SmartEye\SmartEye-Demo - V1\SmartEye-Demo\AppAdapter\Dialog.cs:行号 609]

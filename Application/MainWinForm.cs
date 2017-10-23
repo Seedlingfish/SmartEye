@@ -30,6 +30,9 @@ namespace SmartEye_Demo
         /// </summary>
         public BVCUSdkOperator m_sdkOperator;
         public System.Timers.Timer sndData_timer;
+        //模拟接收数据
+        public System.Timers.Timer recData_timer;
+
         public Websocket_Rec websocket_Rec;
         //public UDPsocket_Rec udpsocket_Rec;
         public System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1)); // 当地时区
@@ -39,6 +42,7 @@ namespace SmartEye_Demo
         private static byte[] rb = new byte[2];
 
         private Random ro;
+        private short Simulate_Dis=0;
 
         //存储pu对应的传感器数据
         public struct RsSlData
@@ -85,7 +89,7 @@ namespace SmartEye_Demo
         /// </summary>
         public MainWinForm()
         {
-            ro = new Random(10);
+            ro = new Random();
             //读取配置文件，获取传感器超标阈值
             gsSrData_SD = new gsData
             {
@@ -117,28 +121,37 @@ namespace SmartEye_Demo
 
             m_getPuList = new GetPuListDel(procGetPuList);//设置获得设备列表后的响应,初始化treeview
 
-            m_capturePath = "";
+            m_capturePath ="";
             m_recordPath = "";
 
             m_activePanelBorder = new RectBorder(panelVideo, Color.Red);
             Panel panel = m_videoPanels[0] as Panel;
             m_activePanelBorder.show(panel.Location, panel.Width, panel.Height, ACTIVE_PANEL_BORDER_WIDTH);
             m_activePanel = panel;
-            RecordPath = "E:\\PIPE_DATA\\TEST";
+            RecordPath = ConfigurationManager.AppSettings["RecordPath"];
             //RecordPath="C:\\Tests\\Datas";
 
             //定时器
-            sndData_timer = new System.Timers.Timer(5000);
+            sndData_timer = new System.Timers.Timer(Convert.ToDouble(ConfigurationManager.AppSettings["SndData_Timer_Interval"]));
             sndData_timer.Elapsed += new ElapsedEventHandler(sndMsg_TSP);
             sndData_timer.AutoReset = true;
             sndData_timer.Enabled = false;
+
+            //模拟接收数据
+            //byte[] simuData=new byte[64];
+            recData_timer = new System.Timers.Timer(1000);
+            recData_timer.Elapsed += new ElapsedEventHandler((s,e)=>setSimuData(s,e,"PU_SU"));
+            //recData_timer.Elapsed += delegate { setNCIData(simuData, "aa"); };
+            recData_timer.AutoReset = true;
+            recData_timer.Enabled =false;
 
             
             //连接数据库
             if (conn != null)
                 conn.Close();
 
-            string connStr = "server=127.0.0.1;user id=root; password=TBG244; database=antoke; pooling=false";
+            string connStr = ConfigurationManager.AppSettings["ConnectionString"];
+            //string connStr = "server=127.0.0.1;user id=robot; password=robot; database=antoke; pooling=false";
             try
             {
                 conn = new MySqlConnection(connStr);
@@ -890,7 +903,7 @@ namespace SmartEye_Demo
                     if (nciOrder[i, 2] == 0x03)
                     {
                         gsSrData.CH4 = bytes2short(new byte[] { nciOrder[i, 7], nciOrder[i, 6] });
-                        gsSrData.CO2 = bytes2short(new byte[] { nciOrder[i, 5], nciOrder[i, 4] });
+                        gsSrData.CO2 = bytes2short(new byte[] { nciOrder[i, 5], nciOrder[i, 4] });                    
 
                     }                              
                 }
@@ -902,6 +915,11 @@ namespace SmartEye_Demo
                 gsSrData.H2S = (short)ro.Next(0, 200);
                 gsSrData.O2 = (short)ro.Next(0, 200);
                 gsSrData.NH3 = (short)ro.Next(0, 200);
+                if (Simulate_Dis < 3276)
+                {
+                    Simulate_Dis++;
+                }
+              
 
                 //string sql1 = string.Format(@"insert into gassensordata(DataTime,CO,CO2,H2S,NH3) values('{0}', '{1}', '{2}', '{3}', '{4}')", DateTime.Now, gsSrData.CO, gsSrData.CO2, gsSrData.CO2, gsSrData.NH3);
                 //MySqlCommand mycmd = new MySqlCommand(sql1, conn);
@@ -985,7 +1003,7 @@ namespace SmartEye_Demo
                     exdata_Now = new ExRsData
                     {
                         data = gas_data,
-                        dis = 0
+                        dis = Simulate_Dis
                     };
                     ex_rsDatas[puid][m].Enqueue(exdata_Now);
                 }
@@ -1017,6 +1035,115 @@ namespace SmartEye_Demo
                 
             }
             
+            //修改区域
+            //存入数据库
+            //string sql1 = string.Format(@"insert into gassensordata(DataTime,CO,CO2,H2S,NH3) values('{0}', '{1}', '{2}', '{3}', '{4}')", DateTime.Now, gsSrData.CO, gsSrData.CO2, gsSrData.H2S, gsSrData.NH3);
+            //MySqlCommand mycmd = new MySqlCommand(sql1, conn);
+            //mycmd.ExecuteNonQuery();              
+
+        }
+
+
+        //获取传感器数据，存入数据库
+        public void setSimuData(object sender, EventArgs e,string puid)
+        {
+
+                //测试
+                gsSrData.CO = (short)ro.Next(0, 200);
+                gsSrData.CH4 = (short)ro.Next(0, 200);
+                gsSrData.CO2 = (short)ro.Next(0, 200);
+                gsSrData.H2S = (short)ro.Next(0, 200);
+                gsSrData.O2 = (short)ro.Next(0, 200);
+                gsSrData.NH3 = (short)ro.Next(0, 200);
+                if (Simulate_Dis < 3276)
+                {
+                    Simulate_Dis++;
+                }
+                //string sql1 = string.Format(@"insert into gassensordata(DataTime,CO,CO2,H2S,NH3) values('{0}', '{1}', '{2}', '{3}', '{4}')", DateTime.Now, gsSrData.CO, gsSrData.CO2, gsSrData.CO2, gsSrData.NH3);
+                //MySqlCommand mycmd = new MySqlCommand(sql1, conn);
+                //mycmd.ExecuteNonQuery();
+
+
+                //如果未存储该设备ID，则初始化一个4队列，添加入字典
+                if (!ex_rsDatas.ContainsKey(puid))
+                {               
+                    RsDatas_Now_Ex = new Queue<ExRsData>[4];
+
+                    for (int j = 0; j < 4; j++)
+                    {
+                        RsDatas_Now_Ex[j] = new Queue<ExRsData>();
+                    }
+                    ex_rsDatas.Add(puid, RsDatas_Now_Ex);
+                }
+                         
+
+
+            //判断是否接收到数据，如接收到，则按对应传感器数据队列存储
+            for (int m = 0; m < 4; m++)
+            {
+                short gas_data = 0;
+                //检验气体是否超标
+                bool is_OverRange = false;
+                switch (m)
+                {
+                    case 0:
+                        gas_data = gsSrData.CO;
+                        is_OverRange = gas_data > gsSrData_SD.CO;
+                        break;
+                    case 1:
+                        gas_data = gsSrData.CO2;
+                        is_OverRange = gas_data > gsSrData_SD.CO2;
+                        break;
+                    case 2:
+                        gas_data = gsSrData.H2S;
+                        is_OverRange = gas_data > gsSrData_SD.H2S;
+                        break;
+                    case 3:
+                        gas_data = gsSrData.NH3;
+                        is_OverRange = gas_data > gsSrData_SD.NH3;
+                        break;
+                    default:
+                        break;
+                }
+          
+                //如果超标，则存入相应队列
+                if (is_OverRange)
+                {                  
+                    exdata_Now = new ExRsData
+                    {
+                        data = gas_data,
+                        dis = Simulate_Dis
+                    };
+                    ex_rsDatas[puid][m].Enqueue(exdata_Now);
+                }
+
+                //如果连续异常数据未达到5个恢复正常，则清空内存对异常数据的存储
+                if (ex_rsDatas[puid][m].Count <= 5 && (!is_OverRange))
+                {
+                    ex_rsDatas[puid][m].Clear();
+                }
+
+                //如果连续异常数据达到5个恢复正常，则将异常序列化为jason数据存入数据库，并清除对应内存
+                if (ex_rsDatas[puid][m].Count > 5 && (!is_OverRange))
+                {
+                    JsonSerializer serializer_w = new JsonSerializer();
+                    StringWriter sw = new StringWriter();
+                    serializer_w.Serialize(new JsonTextWriter(sw), ex_rsDatas[puid][m]);
+                    string exString = sw.GetStringBuilder().ToString();
+
+                    //存入数据库
+                    //。。。。。。
+                    string sql1 = string.Format(@"insert into pipe_gas_exception(name,pipe_name,start_point,gas_cate,start_time,data) values('{0}', '{1}', '{2}', '{3}', '{4}','{5}')", DateTime.Now, "PIPE1", "PIONT1", gas[m], DateTime.Now, exString);
+                    MySqlCommand mycmd = new MySqlCommand(sql1, conn);
+                    mycmd.ExecuteNonQuery();
+
+                    //清空内存对异常数据的存储
+                    ex_rsDatas[puid][m].Clear();
+                }
+
+
+            }
+
             //修改区域
 
 
